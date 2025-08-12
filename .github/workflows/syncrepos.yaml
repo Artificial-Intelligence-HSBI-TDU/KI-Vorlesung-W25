@@ -15,11 +15,11 @@ jobs:
       contents: write
     steps:
       - name: Checkout our semester-repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - name: Checkout external lecture-repo (_gfm branch)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: Artificial-Intelligence-HSBI-TDU/KI-Vorlesung    ## TODO (org/repo)
           fetch-depth: 0
