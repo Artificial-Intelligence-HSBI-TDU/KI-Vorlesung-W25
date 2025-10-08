@@ -43,7 +43,7 @@
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> - [VL Alpha-Beta-Pruning](https://youtu.be/)
+> - [VL Alpha-Beta-Pruning](https://youtu.be/_Hq-GCl__bU)
 >
 > </details>
 
@@ -318,4 +318,4 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 10f17df (lecture: update to 2025 edition of Ertel, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e118a38 (lecture: fix missing link to video (Games4), 2025-10-08)<br></sub></sup></p></blockquote>

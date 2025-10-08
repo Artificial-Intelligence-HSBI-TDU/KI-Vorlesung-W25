@@ -22,7 +22,7 @@
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> - [VL Best First](https://youtu.be/)
+> - [VL Best First](https://youtu.be/dNyLOQuD_aI)
 >
 > </details>
 
@@ -188,4 +188,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 06be987 (lecture: fix missing link to video (Search4), 2025-10-08)<br></sub></sup></p></blockquote>

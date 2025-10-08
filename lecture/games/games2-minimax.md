@@ -28,7 +28,7 @@
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> - [VL Minimax](https://youtu.be/)
+> - [VL Minimax](https://youtu.be/aKtF__lMMsw)
 >
 > </details>
 
@@ -278,4 +278,4 @@ Gedankenexperiment:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 10f17df (lecture: update to 2025 edition of Ertel, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9d97ac9 (lecture: fix missing link to video (Games2), 2025-10-08)<br></sub></sup></p></blockquote>
