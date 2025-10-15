@@ -16,7 +16,7 @@ Informatik.
 
 ## Games.01: Handsimulation: Minimax und alpha-beta-Pruning (3P)
 
-<img src="images/alphabeta.png">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/alphabeta_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/alphabeta_dark.png"><img src="images/alphabeta.png"></picture>
 
 1.  (1P) Geben Sie für den Spielbaum die Minimax-Bewertungen an.
 
@@ -82,7 +82,7 @@ Betrachten Sie nun das Problem, den Spielbaum eines Drei-Personen-Spiels
 zu evaluieren, das nicht notwendigerweise die Nullsummenbedingung
 erfüllt.
 
-<img src="images/minmax-multiplayer.png">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/minmax-multiplayer_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/minmax-multiplayer_dark.png"><img src="images/minmax-multiplayer.png"></picture>
 
 Die Spieler heißen 1, 2 und 3. Im Gegensatz zu
 Zwei-Personen-Nullsummenspielen liefert die Bewertungsfunktion nun

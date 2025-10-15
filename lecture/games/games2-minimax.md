@@ -77,7 +77,7 @@ Minimax-Algorithmus nicht unbedingt eine optimale Strategie.
 
 ### Spielbaum TTT
 
-<img src="images/tttSpielbaum.png" width="50%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/tttSpielbaum_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/tttSpielbaum_dark.png"><img src="images/tttSpielbaum.png" width="50%"></picture>
 
 ### Minimax (Idee)
 
@@ -150,7 +150,7 @@ def Minimax(state):
 
 ## Minimax Beispiel
 
-<img src="images/minimaxBeispiel.png" width="35%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/minimaxBeispiel_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/minimaxBeispiel_dark.png"><img src="images/minimaxBeispiel.png" width="35%"></picture>
 
 ### Aufwand Minimax
 

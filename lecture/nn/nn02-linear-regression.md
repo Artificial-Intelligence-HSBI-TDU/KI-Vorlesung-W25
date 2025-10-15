@@ -24,7 +24,7 @@
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
-> - [NN02-Lineare_Regression.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN02-Lineare_Regression.pdf)
+> - [NN02-Lineare_Regression.pdf](files/NN02-Lineare_Regression.pdf)
 >
 > </details>
 
@@ -91,11 +91,11 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 
 - **Lineare Regression**
 
-  <img src="images/lin_reg_nn.png" width="65%">
+  <picture><source media="(prefers-color-scheme: light)" srcset="images/lin_reg_nn_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/lin_reg_nn_dark.png"><img src="images/lin_reg_nn.png" width="65%"></picture>
 
 - **Perzeptron**
 
-  <img src="images/perzeptron_nn.png" width="65%">
+  <picture><source media="(prefers-color-scheme: light)" srcset="images/perzeptron_nn_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/perzeptron_nn_dark.png"><img src="images/perzeptron_nn.png" width="65%"></picture>
 
 > [!NOTE]
 >
@@ -138,9 +138,9 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 > Lines](https://en.wikipedia.org/wiki/Contour_line)) von zwei
 > Kostenfunktionen.
 >
-> <p align="center"><img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/images/contour_plot_a.png?raw=true" width="40%"></p><p align="center">Abbildung
+> <p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/contour_plot_a_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/contour_plot_a_dark.png"><img src="images/contour_plot_a.png" width="40%"></picture></p><p align="center">Abbildung
 > 1</p>
-> <p align="center"><img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/images/contour_plot_b.png?raw=true" width="40%"></p><p align="center">Abbildung
+> <p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/contour_plot_b_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/contour_plot_b_dark.png"><img src="images/contour_plot_b.png" width="40%"></picture></p><p align="center">Abbildung
 > 2</p>
 >
 > - Erklären Sie, welcher der beiden Fälle nachteilhaft für den
@@ -151,8 +151,8 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 >   Standardisierung, Min-Max Skalierung und Normalisierung auf die
 >   Daten auswirken. Vergleichen Sie dazu die jeweiligen Streudiagramme
 >   (scatterplots). Sie können hierzu das folgende [**Jupyter
->   Notebook**](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/Feature_Scaling_Starter.ipynb)
->   als Startpunkt benutzen.
+>   Notebook**](files/Feature_Scaling_Starter.ipynb) als Startpunkt
+>   benutzen.
 >
 > </details>
 
@@ -162,4 +162,4 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9a4d8be (lecture: add NN to title (NN), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 46ea36d (lecture: use local files for attachments (NN2), 2025-10-15)<br></sub></sup></p></blockquote>

@@ -49,7 +49,7 @@
 
 ## Verbesserung Minimax-Algorithmus
 
-<img src="images/minimax.png" width="35%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/minimax_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/minimax_dark.png"><img src="images/minimax.png" width="35%"></picture>
 
 =\> **Minimax-Baum**: Verbesserungen möglich?
 

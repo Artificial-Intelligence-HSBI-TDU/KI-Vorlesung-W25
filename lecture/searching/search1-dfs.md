@@ -37,7 +37,7 @@
 
 <div align="center">
 
-<img src="images/scene.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/scene_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/scene_dark.png"><img src="images/scene.png" width="60%"></picture>
 
 </div>
 
@@ -62,7 +62,7 @@ Dabei sind die Durchgänge teilweise nur in einer Richtung zu benutzen
 
 <div align="center">
 
-<img src="images/graph.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/graph_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/graph_dark.png"><img src="images/graph.png" width="60%"></picture>
 
 </div>
 
@@ -113,7 +113,7 @@ Reihenfolge der Knoten (Orte).
 
 <div align="center">
 
-<img src="images/tafelbeispiel.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/tafelbeispiel_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/tafelbeispiel_dark.png"><img src="images/tafelbeispiel.png" width="60%"></picture>
 
 </div>
 

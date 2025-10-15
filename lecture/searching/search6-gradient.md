@@ -29,9 +29,9 @@
 
 ## Unterschiede in den Suchproblemen?
 
-<img src="images/graph.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/graph_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/graph_dark.png"><img src="images/graph.png" width="60%"></picture>
 
-<img src="images/screenshot_stundenplan.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/screenshot_stundenplan_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/screenshot_stundenplan_dark.png"><img src="images/screenshot_stundenplan.png" width="60%"></picture>
 
 Bisher betrachtete Suchverfahren:
 
@@ -45,7 +45,7 @@ Beispiel: Stundenplan
 
 ## Analogie: Bergsteigen ohne Karte und Pfade
 
-<img src="images/hill-climbing.png" width="50%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/hill-climbing_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/hill-climbing_dark.png"><img src="images/hill-climbing.png" width="50%"></picture>
 
 **Gradienten-Suche**: “Gehe in Richtung des steilsten Anstiegs der
 Zielfunktion.”
@@ -75,7 +75,7 @@ Gedächtnisverlust*”
 
 <div align="center">
 
-<img src="images/tafelbeispiel.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/tafelbeispiel_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/tafelbeispiel_dark.png"><img src="images/tafelbeispiel.png" width="60%"></picture>
 
 </div>
 
@@ -113,7 +113,7 @@ Quelle: nach ([Russell und Norvig 2021](#ref-Russell2021), p. 131)
 
 **Zielfunktion (Bewertung) nötig!**
 
-<img src="images/hill-climbing.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/hill-climbing_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/hill-climbing_dark.png"><img src="images/hill-climbing.png" width="60%"></picture>
 
 **Problem**: lokale Maxima und Plateaus
 
@@ -173,7 +173,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > Commons ([Public
 > Domain](https://en.wikipedia.org/wiki/en:public_domain))
 >
-> <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/searching/images/challenge.png?raw=true">
+> <picture><source media="(prefers-color-scheme: light)" srcset="images/challenge_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/challenge_dark.png"><img src="images/challenge.png"></picture>
 >
 > Finden Sie mit der **Gradienten-Suche** jeweils einen Weg von Würzburg
 > nach München. Vergleichen Sie das Ergebnis mit der Best-First-Suche.
@@ -217,4 +217,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6a8bc1e (lecture: use local images for challenges (Search6), 2025-10-15)<br></sub></sup></p></blockquote>

@@ -252,7 +252,7 @@ Intention oder Bewusstsein vorhanden ist.
 
 ## Typische Ansätze in der KI
 
-<img src="images/dimensionen-ki.png" width="40%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/dimensionen-ki_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/dimensionen-ki_dark.png"><img src="images/dimensionen-ki.png" width="40%"></picture>
 
 Untersuchung von
 
@@ -577,24 +577,24 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
-- [AvB - RoboCup 2013 -
-  Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by
-  [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
-  Flickr.com ([CC BY
-  2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
-- [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
-  [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
-  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
-  on Wikipedia ([CC BY-SA
-  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 - [Turing Test version
   3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
   by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
+- [AvB - RoboCup 2013 -
+  Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by
+  [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
+  Flickr.com ([CC BY
+  2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 - [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
   [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
   [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+  on Wikipedia ([CC BY-SA
+  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+- [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
+  [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
+  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
   on Wikipedia ([CC BY-SA
   3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 

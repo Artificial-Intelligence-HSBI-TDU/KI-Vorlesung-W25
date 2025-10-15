@@ -55,7 +55,7 @@ autonomen Fahrzeugen, …
 
 ## Kursformat (HSBI)
 
-<img src="admin/images/fahrplan.png" width="80%">
+<picture><source media="(prefers-color-scheme: light)" srcset="admin/images/fahrplan_light.png"><source media="(prefers-color-scheme: dark)" srcset="admin/images/fahrplan_dark.png"><img src="admin/images/fahrplan.png" width="80%"></picture>
 
 | Vorlesung (2 SWS): bis 26.10. | Vorlesung (2 SWS): ab 26.10. | Praktikum (2 SWS) |
 |:---|:---|:---|

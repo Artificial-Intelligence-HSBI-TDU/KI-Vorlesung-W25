@@ -45,7 +45,7 @@
 
 ## Entscheidungsbäume: Klassifikation
 
-<img src="images/xor-decision-tree.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/xor-decision-tree_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/xor-decision-tree_dark.png"><img src="images/xor-decision-tree.png" width="60%"></picture>
 
 - Attribute als Knoten im Baum
 - Ausprägungen als Test (Ausgang, Verzweigung)

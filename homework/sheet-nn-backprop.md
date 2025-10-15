@@ -20,7 +20,7 @@ skalaren Input $`x`$ und berechnet daraus die Ausgabe $`y`$. Beide
 Zellen verwenden die Aktivierungsfunktion
 $`\sigma(z) = \frac{1}{ 1 + e^{-z} }`$.
 
-<p align="center"><img src="images/mlp.png" width="50%"></p><p align="center">Abbildung
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/mlp_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/mlp_dark.png"><img src="images/mlp.png" width="50%"></picture></p><p align="center">Abbildung
 1</p>
 
 - (1P) Berechnen Sie die Ausgabe $`y`$ für die Eingabe

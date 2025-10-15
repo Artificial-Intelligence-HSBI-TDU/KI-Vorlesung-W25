@@ -28,7 +28,7 @@
 
 ## Einfärben von Landkarten als CSP
 
-<img src="images/map_graph.png" width="80%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/map_graph_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/map_graph_dark.png"><img src="images/map_graph.png" width="80%"></picture>
 
 ## Endliche Domänen: Formulierung als Suchproblem
 
@@ -60,7 +60,7 @@ mache notfalls Backtracking.
 
 ## BT-Suche für CSP am Beispiel Landkartenfärbeproblem
 
-<img src="images/map_progress.png" width="80%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/map_progress_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/map_progress_dark.png"><img src="images/map_progress.png" width="80%"></picture>
 
 ## Wrap-Up
 

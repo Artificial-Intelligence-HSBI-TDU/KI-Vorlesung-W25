@@ -38,7 +38,7 @@
 
 ## VARIABLES: Variablen-Sortierung, Welche Variable soll betrachtet werden?
 
-<img src="images/bt_search_mrv.png" width="65%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/bt_search_mrv_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/bt_search_mrv_dark.png"><img src="images/bt_search_mrv.png" width="65%"></picture>
 
 **VARIABLES**: Welche Variable zuerst ausprobieren?
 
@@ -59,7 +59,7 @@ Beispiel:
 
 ## VARIABLES: Gleichstand bei MRV
 
-<img src="images/bt_search_mrv.png" width="65%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/bt_search_mrv_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/bt_search_mrv_dark.png"><img src="images/bt_search_mrv.png" width="65%"></picture>
 
 **VARIABLES**: Welche Variable zuerst ausprobieren?
 
@@ -85,7 +85,7 @@ Beispiel:
 
 ## VALUES: Werte-Sortierung, Welchen Wert soll ich ausprobieren?
 
-<img src="images/bt_search_lcv.png" width="65%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/bt_search_lcv_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/bt_search_lcv_dark.png"><img src="images/bt_search_lcv.png" width="65%"></picture>
 
 **VALUES**: Welchen Wert zuerst ausprobieren?
 

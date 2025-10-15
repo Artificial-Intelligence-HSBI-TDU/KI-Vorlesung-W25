@@ -21,7 +21,7 @@
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
-> - [NN08-Performanzanalyse.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN08-Performanzanalyse.pdf)
+> - [NN08-Performanzanalyse.pdf](files/NN08-Performanzanalyse.pdf)
 >
 > </details>
 
@@ -42,7 +42,7 @@
   Klasse-$`j`$-Beispiele enthält, die als Klasse-$`i`$ vorhergesagt
   wurden.
 
-<p align="center"><img src="images/nn8-1.png" width="80%"></p><p align="center">Abbildung
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/nn8-1_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/nn8-1_dark.png"><img src="images/nn8-1.png" width="80%"></picture></p><p align="center">Abbildung
 1 - Wahrheitsmatrix bei binärer Klassifizierung</p>
 
 #### Treffergenauigkeit (engl. Accuracy)
@@ -150,4 +150,4 @@ F_1-Score = \frac{2}{\frac{1}{P} + \frac{1}{R}} = 2 \cdot \frac{PR}{P + R}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9a4d8be (lecture: add NN to title (NN), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 617607f (lecture: use local files for attachments (NN8), 2025-10-15)<br></sub></sup></p></blockquote>

@@ -39,7 +39,7 @@
 
 ## Problem bei BT-Suche
 
-<img src="images/map_progress.png" width="80%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/map_progress_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/map_progress_dark.png"><img src="images/map_progress.png" width="80%"></picture>
 
 Die [BT-Search](csp2-backtrackingsearch.md) würde den Graphen ablaufen
 und schrittweise dem jeweils ausgewählten Knoten eine Farbe zuweisen und
@@ -70,11 +70,11 @@ einsetzt.
 
 Ausgangszustand:
 
-<img src="images/map_graph.png" width="75%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/map_graph_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/map_graph_dark.png"><img src="images/map_graph.png" width="75%"></picture>
 
 Schritt 1: “Würfeln” (zufällige vollständige Belegung)
 
-<img src="images/min_conflicts1.png" width="50%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/min_conflicts1_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/min_conflicts1_dark.png"><img src="images/min_conflicts1.png" width="50%"></picture>
 
 **Problem**: Konflikt in Knoten B und C.
 
@@ -84,7 +84,7 @@ Schritt 2: “Schütteln”
 - Auswahl einer anderen Farbe (grün - Anzahl der verbleibenden Konflikte
   = 0)
 
-<img src="images/min_conflicts2.png" width="50%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/min_conflicts2_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/min_conflicts2_dark.png"><img src="images/min_conflicts2.png" width="50%"></picture>
 
 **Lösung erreicht.**
 

@@ -32,7 +32,7 @@
 
 <div align="center">
 
-<img src="images/graph.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/graph_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/graph_dark.png"><img src="images/graph.png" width="60%"></picture>
 
 </div>
 
@@ -66,7 +66,7 @@ Varianten:
 
 <div align="center">
 
-<img src="images/tafelbeispiel.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/tafelbeispiel_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/tafelbeispiel_dark.png"><img src="images/tafelbeispiel.png" width="60%"></picture>
 
 </div>
 

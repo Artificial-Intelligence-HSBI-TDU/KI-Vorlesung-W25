@@ -16,7 +16,7 @@
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
-> [starter.ipynb](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/intro/files/jupyter_starter.ipynb)
+> [starter.ipynb](files/jupyter_starter.ipynb)
 >
 > </details>
 
@@ -26,4 +26,4 @@
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bb445ad (lecture: add intro session to jupyter notebooks (#473), 2025-10-08)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0c5424e (lecture: use local files for attachments (Intro3), 2025-10-15)<br></sub></sup></p></blockquote>

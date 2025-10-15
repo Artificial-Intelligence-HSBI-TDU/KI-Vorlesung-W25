@@ -281,7 +281,7 @@ wiederholen.
 
 Betrachten Sie den folgenden Graphen:
 
-<img src="images/graph.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/graph_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/graph_dark.png"><img src="images/graph.png" width="60%"></picture>
 
 Führen Sie eine Handsimulation der Breitensuche durch. Start ist “K”,
 Ziel ist “B”.

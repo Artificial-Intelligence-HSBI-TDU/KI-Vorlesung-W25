@@ -30,7 +30,7 @@
 
 <div align="center">
 
-<img src="images/graph.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/graph_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/graph_dark.png"><img src="images/graph.png" width="60%"></picture>
 
 </div>
 
@@ -145,7 +145,7 @@ Siehe [A\*](search5-astar.md)
 > Commons ([Public
 > Domain](https://en.wikipedia.org/wiki/en:public_domain))
 >
-> <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/searching/images/challenge.png?raw=true">
+> <picture><source media="(prefers-color-scheme: light)" srcset="images/challenge_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/challenge_dark.png"><img src="images/challenge.png"></picture>
 >
 > Finden Sie mit der **Best-First-Suche** jeweils einen Weg von Würzburg
 > nach München. Vergleichen Sie das Ergebnis mit der Gradienten-Suche.
@@ -188,4 +188,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 06be987 (lecture: fix missing link to video (Search4), 2025-10-08)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 756a3aa (lecture: use local images for challenges (Search4), 2025-10-15)<br></sub></sup></p></blockquote>

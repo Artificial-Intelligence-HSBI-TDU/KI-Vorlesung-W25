@@ -64,7 +64,7 @@
 
 ## Learning Agent
 
-<img src="images/learning.png" width="70%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/learning_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/learning_dark.png"><img src="images/learning.png" width="70%"></picture>
 
 ## Feedback während des Lernens
 
@@ -154,7 +154,7 @@ X & . & .
 
 ## Konstruieren einer konsistenten Hypothese
 
-<img src="images/occams1.png" width="40%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/occams1_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/occams1_dark.png"><img src="images/occams1.png" width="40%"></picture>
 
 Welcher Zusammenhang ist hier dargestellt? Offenbar eine Art
 Funktionsverlauf … Wir haben für einige x-Werte die zugehörigen y-Werte
@@ -162,7 +162,7 @@ vorgegeben.
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<img src="images/occams2.png" width="40%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/occams2_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/occams2_dark.png"><img src="images/occams2.png" width="40%"></picture>
 
 Die einfachste Approximation wäre eine lineare Funktion. Allerdings
 werden hierbei einige Werte mehr oder weniger stark nicht korrekt
@@ -170,7 +170,7 @@ widergegeben, d.h. man hat einen relativ hohen (Trainings-) Fehler.
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<img src="images/occams3.png" width="40%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/occams3_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/occams3_dark.png"><img src="images/occams3.png" width="40%"></picture>
 
 Die Hyperbel erklärt die Trainingsdaten bis auf den einen Punkt sehr
 gut. Die Frage ist, ob dieser eine Punkt zum zu lernenden Zusammenhang
@@ -178,7 +178,7 @@ gehört oder ein Ausreißer ist, den man gefahrlos ignorieren kann?
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<img src="images/occams4.png" width="40%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/occams4_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/occams4_dark.png"><img src="images/occams4.png" width="40%"></picture>
 
 Die grüne Hypothese ist von allen bisher gezeigten die komplexeste,
 erklärt aber alle Datenpunkte. D.h. hier wäre der Trainingsfehler Null.
@@ -191,7 +191,7 @@ Ausreißer o.ä. gibt.)
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<img src="images/occams5.png" width="40%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/occams5_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/occams5_dark.png"><img src="images/occams5.png" width="40%"></picture>
 
 Diese Hypothese erklärt ebenfalls sämtliche Trainingsdaten. Allerdings
 schwingt die Funktion zwischen den Daten stark hin und her. Vermutlich

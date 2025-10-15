@@ -35,7 +35,7 @@
 
 ## Motivation: Einfärben von Landkarten
 
-<img src="images/map.png" width="50%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/map_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/map_dark.png"><img src="images/map.png" width="50%"></picture>
 
 Die Skizze soll eine Landkarte mit verschiedenen Ländern darstellen. Die
 Aufgabe lautet: Färbe jedes Land mit einer Farbe ein, um die
@@ -82,7 +82,7 @@ unterschiedliche Farben bekommen (=\> *Constraint*).
 
 ## Constraint-Graph
 
-<img src="images/map_graph.png" width="80%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/map_graph_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/map_graph_dark.png"><img src="images/map_graph.png" width="80%"></picture>
 
 Ein CSP kann man auch als Constraint-Graph darstellen. Die Variablen
 werden zu Knoten im Graph, die Constraints zu Kanten zwischen den

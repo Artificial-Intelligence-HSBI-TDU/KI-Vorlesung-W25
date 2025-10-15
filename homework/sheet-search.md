@@ -59,7 +59,7 @@ by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
 Commons ([Public
 Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<img src="images/MapGermanyGraph-Kosten.png" width="40%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/MapGermanyGraph-Kosten_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/MapGermanyGraph-Kosten_dark.png"><img src="images/MapGermanyGraph-Kosten.png" width="40%"></picture>
 
 1.  Finden Sie nacheinander mit Tiefensuche (1P) und Breitensuche (1P)
     (jeweils in der Graph-Search-Variante) sowie A\* (2P) (in der

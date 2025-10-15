@@ -68,7 +68,7 @@ H(V) = -\sum_k p_k \log_2 p_k
 Hinweis:
 $`\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}`$
 
-<img src="images/log_range.png">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/log_range_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/log_range_dark.png"><img src="images/log_range.png"></picture>
 
 - Nur eine Klasse: $`\log_2 1 = 0`$ =\> $`H(V) = 0`$ Bit
 - Zwei Klassen, gleichwahrscheinlich: $`\log_2 0.5 = -1`$ =\>

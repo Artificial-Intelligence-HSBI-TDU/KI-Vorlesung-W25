@@ -76,7 +76,7 @@
 
 ## Motivation: Roboter in einer Bibliothek
 
-<img src="images/problem.png" width="40%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/problem_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/problem_dark.png"><img src="images/problem.png" width="40%"></picture>
 
 **Aktionen:**
 
@@ -109,7 +109,7 @@ Bemerkungen zur Umwelt:
 
 ## Zustände der Bibliotheks-Welt
 
-<img src="images/states.png" width="55%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/states_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/states_dark.png"><img src="images/states.png" width="55%"></picture>
 
 **Problem:** Gegeben einen Startzustand, wie komme ich zum Ziel?
 
@@ -125,7 +125,7 @@ Ergebnis:
 
 ## Suche im Problemgraphen
 
-<img src="images/state-space.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/state-space_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/state-space_dark.png"><img src="images/state-space.png" width="60%"></picture>
 
 - Durch die Suche im Problemgraphen wird ein Suchbaum aufgespannt
 - Varianten: Zustände können in einem Pfad wiederholt vorkommen

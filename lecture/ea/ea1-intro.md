@@ -57,11 +57,11 @@ Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
 
 ## EA – Allgemeiner Ablauf
 
-<img src="images/ea_prinz.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/ea_prinz_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/ea_prinz_dark.png"><img src="images/ea_prinz.png" width="60%"></picture>
 
 ## EA – Beispiel
 
-<img src="images/4-queens-example.png" width="25%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/4-queens-example_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/4-queens-example_dark.png"><img src="images/4-queens-example.png" width="25%"></picture>
 
 Jedes Individuum kodiert ein Spielfeld mit einer konkreten Anordnung
 **aller** Königinnen =\> **Vollständige Zustandsbeschreibung**.

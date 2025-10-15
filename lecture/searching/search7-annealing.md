@@ -38,7 +38,7 @@
 
 ## Motivation
 
-<img src="images/hill-climbing.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/hill-climbing_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/hill-climbing_dark.png"><img src="images/hill-climbing.png" width="60%"></picture>
 
 **Problem**: lokale Maxima und Plateaus
 

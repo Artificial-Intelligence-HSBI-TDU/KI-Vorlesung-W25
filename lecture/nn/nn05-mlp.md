@@ -16,7 +16,7 @@
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
-> - [NN05-MLP.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN05-MLP.pdf)
+> - [NN05-MLP.pdf](files/NN05-MLP.pdf)
 >
 > </details>
 
@@ -38,7 +38,7 @@
 
 - Ein Multi-Layer Perzeptron
 
-  <img src="images/mlp.png" width="65%">
+  <picture><source media="(prefers-color-scheme: light)" srcset="images/mlp_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/mlp_dark.png"><img src="images/mlp.png" width="65%"></picture>
 
   Ein Vorwärtslauf (forward pass):
 
@@ -119,4 +119,4 @@ a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9a4d8be (lecture: add NN to title (NN), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0cf03b0 (lecture: use local files for attachments (NN5), 2025-10-15)<br></sub></sup></p></blockquote>

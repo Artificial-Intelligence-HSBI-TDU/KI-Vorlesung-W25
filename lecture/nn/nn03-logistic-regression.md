@@ -23,7 +23,7 @@
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
-> - [NN03-Logistische_Regression.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN03-Logistische_Regression.pdf)
+> - [NN03-Logistische_Regression.pdf](files/NN03-Logistische_Regression.pdf)
 >
 > </details>
 
@@ -72,15 +72,15 @@ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{3}
 
 - **Logistische Regression**
 
-  <img src="images/log_reg_nn.png" width="65%">
+  <picture><source media="(prefers-color-scheme: light)" srcset="images/log_reg_nn_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/log_reg_nn_dark.png"><img src="images/log_reg_nn.png" width="65%"></picture>
 
 - **Lineare Regression**
 
-  <img src="images/lin_reg_nn.png" width="65%">
+  <picture><source media="(prefers-color-scheme: light)" srcset="images/lin_reg_nn_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/lin_reg_nn_dark.png"><img src="images/lin_reg_nn.png" width="65%"></picture>
 
 - **Perzeptron**
 
-  <img src="images/perzeptron_nn.png" width="65%">
+  <picture><source media="(prefers-color-scheme: light)" srcset="images/perzeptron_nn_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/perzeptron_nn_dark.png"><img src="images/perzeptron_nn.png" width="65%"></picture>
 
 > [!NOTE]
 >
@@ -117,4 +117,4 @@ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{3}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9a4d8be (lecture: add NN to title (NN), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9c1a02d (lecture: use local files for attachments (NN3), 2025-10-15)<br></sub></sup></p></blockquote>

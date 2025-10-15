@@ -7,7 +7,7 @@ Eingabevariablen $`x_1`$ und $`x_2`$ die in der folgenden Abbildung
 blau-grau dargestellten Bereiche mit +1 klassifiziert. Benutzen Sie die
 $`\mathop{\text{sign}}`$-Funktion als Aktivierungsfunktion.
 
-<p align="center"><img src="images/perzeptron_netz.png" width="50%"></p><p align="center">Abbildung
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/perzeptron_netz_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/perzeptron_netz_dark.png"><img src="images/perzeptron_netz.png" width="50%"></picture></p><p align="center">Abbildung
 1</p>
 
 ## NN.MLP.02: Vorwärtslauf im MLP (2P)

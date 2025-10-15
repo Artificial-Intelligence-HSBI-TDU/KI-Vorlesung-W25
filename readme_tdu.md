@@ -60,7 +60,7 @@ autonomen Fahrzeugen, …
 
 ## Kursformat (TDU)
 
-<img src="admin/images/fahrplan.png" width="80%">
+<picture><source media="(prefers-color-scheme: light)" srcset="admin/images/fahrplan_light.png"><source media="(prefers-color-scheme: dark)" srcset="admin/images/fahrplan_dark.png"><img src="admin/images/fahrplan.png" width="80%"></picture>
 
 | Vorlesung (2 SWS)          | Übung (2 SWS)              |
 |:---------------------------|:---------------------------|

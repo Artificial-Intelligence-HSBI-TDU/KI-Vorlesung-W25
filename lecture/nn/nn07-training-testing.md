@@ -19,7 +19,7 @@
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
-> - [NN07-Testing-Validierung.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN07-Testing-Validierung.pdf)
+> - [NN07-Testing-Validierung.pdf](files/NN07-Testing-Validierung.pdf)
 >
 > </details>
 
@@ -118,7 +118,7 @@
     Schichten, Anzahl Zellen/Schicht, Aktivierungsfunktion,
     Regularisierungsparameter (siehe Abbildung 1).
 
-  <p align="center"><img src="images/val1.png" width="80%"></p><p align="center">Abbildung
+  <p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/val1_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/val1_dark.png"><img src="images/val1.png" width="80%"></picture></p><p align="center">Abbildung
   1 - Einsatz der Validierung für das Hyperparameter-Tuning</p>
 
   - Bei der **Auswahl der endgültigen Hypothese** ($`\rightarrow`$
@@ -126,14 +126,14 @@
     Trainings durchlafen werden, wähle jene mit kleinstem $`E_{val}`$
     (siehe Abbildung 2).
 
-  <p align="center"><img src="images/val2.png" width="80%"></p><p align="center">Abbildung
+  <p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/val2_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/val2_dark.png"><img src="images/val2.png" width="80%"></picture></p><p align="center">Abbildung
   2 - Einsatz der Validierung bei der Auswahl der entgültigen
   Hypothese</p>
 
   - Bei der graphischen **Darstellung von Lernkurven** für die Diagnose
     von Über- und Unteranpassung (siehe Abbildung 3).
 
-  <p align="center"><img src="images/val3.png" width="80%"></p><p align="center">Abbildung
+  <p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/val3_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/val3_dark.png"><img src="images/val3.png" width="80%"></picture></p><p align="center">Abbildung
   3 - Lernkurven</p>
 
 - Übliche train/val/test Aufteilung der Daten (in Prozent):
@@ -178,7 +178,7 @@
     $`(\mathcal{H_m},\mathcal{A_m})`$ ist der Durchschnitt der $`k`$
     Validierungsfehler $`e_1, e_2, ..., e_k`$ (siehe Abbildung 4).
 
-  <p align="center"><img src="images/val4.png" width="80%"></p><p align="center">Abbildung
+  <p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/val4_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/val4_dark.png"><img src="images/val4.png" width="80%"></picture></p><p align="center">Abbildung
   4 - Kreuzvalidierung</p>
 
 ``` math
@@ -245,4 +245,4 @@ E_{CV}(m) := \frac{1}{k} \sum_{i=1}^{k} e_i = \frac{1}{k} \sum_{i=1}^{k} E_{val}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9a4d8be (lecture: add NN to title (NN), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> a711fb1 (lecture: use local files for attachments (NN7), 2025-10-15)<br></sub></sup></p></blockquote>

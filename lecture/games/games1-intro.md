@@ -43,7 +43,7 @@ beste Zug?!**
 
 ## Motivation: Unterschied zu Suche?!
 
-<img src="images/tttEnd.png" width="10%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/tttEnd_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/tttEnd_dark.png"><img src="images/tttEnd.png" width="10%"></picture>
 
 =\> Mehrere **konkurrierende** Agenten an Suche beteiligt!
 

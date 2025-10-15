@@ -43,7 +43,7 @@
 
 ## EA – Allgemeiner Ablauf
 
-<img src="images/ea_prinz.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/ea_prinz_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/ea_prinz_dark.png"><img src="images/ea_prinz.png" width="60%"></picture>
 
 ## Kodierung Individuen
 
@@ -215,9 +215,9 @@ Die SR liegt im Intervall $`[0, 1]`$.
 
 ## Typische Läufe
 
-<img src="images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/typischerLauf_ritterIII_mG500M15L100_fail_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/typischerLauf_ritterIII_mG500M15L100_fail_dark.png"><img src="images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="60%"></picture>
 
-<img src="images/typischerLauf_ritterIII_mG500M15L100_success.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/typischerLauf_ritterIII_mG500M15L100_success_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/typischerLauf_ritterIII_mG500M15L100_success_dark.png"><img src="images/typischerLauf_ritterIII_mG500M15L100_success.png" width="60%"></picture>
 
 - Populationsgröße $`\mu=15`$
 - Anzahl Nachfahren $`\lambda=100`$

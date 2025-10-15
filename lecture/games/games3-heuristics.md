@@ -81,7 +81,7 @@
 
 ## Minimax mit mehreren Spielern
 
-<img src="images/minimax3.png" width="35%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/minimax3_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/minimax3_dark.png"><img src="images/minimax3.png" width="35%"></picture>
 
 Hier maximiert jeder Spieler sein eigenes Ergebnis. Im Grunde müsste
 diese Variante dann besser “Maximax” heissen …
@@ -101,7 +101,7 @@ Backgammon: Was ist in dieser Situation der optimale Zug?
 
 ## Minimax mit Zufallsspielen: ZUFALLS-Knoten
 
-<img src="images/expectimax.png" width="35%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/expectimax_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/expectimax_dark.png"><img src="images/expectimax.png" width="35%"></picture>
 
 Zusätzlich zu den MIN- und MAX-Knoten führt man noch Zufalls-Knoten ein,
 um das Würfelergebnis repräsentieren zu können. Je möglichem

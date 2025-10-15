@@ -37,7 +37,7 @@
 
 <div align="center">
 
-<img src="images/graph.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/graph_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/graph_dark.png"><img src="images/graph.png" width="60%"></picture>
 
 </div>
 
@@ -75,7 +75,7 @@ Varianten:
 
 <div align="center">
 
-<img src="images/tafelbeispiel.png" width="60%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/tafelbeispiel_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/tafelbeispiel_dark.png"><img src="images/tafelbeispiel.png" width="60%"></picture>
 
 </div>
 
@@ -242,7 +242,7 @@ Außerdem muss gelten:
 >
 > Betrachten Sie folgendes Problem:
 >
-> <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/searching/images/challenges_robby.png?raw=true" width="60%">
+> <picture><source media="(prefers-color-scheme: light)" srcset="images/challenges_robby_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/challenges_robby_dark.png"><img src="images/challenges_robby.png" width="60%"></picture>
 >
 > Dargestellt ist eine typische Büroumgebung mit verschiedenen Räumen
 > und einem Flur. Die Pfeile in den Durchgängen geben an, in welche
@@ -295,7 +295,7 @@ Außerdem muss gelten:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> a6551fa (lecture: use local images for challenges (Search5), 2025-10-15)<br></sub></sup></p></blockquote>
 
 [^1]: BnB vollständig: Kosten größer Epsilon (positiv)
 

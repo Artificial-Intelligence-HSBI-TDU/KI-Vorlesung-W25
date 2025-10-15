@@ -55,7 +55,7 @@ prüfen
 
 ## INFERENCE: Vorab-Prüfung (Forward Checking)
 
-<img src="images/bt_search_inference.png" width="65%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/bt_search_inference_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/bt_search_inference_dark.png"><img src="images/bt_search_inference.png" width="65%"></picture>
 
 **Inference**: Frühzeitiges Erkennen von Fehlschlägen! (vgl. ([Russell
 und Norvig 2021, 178](#ref-Russell2021)))
@@ -75,7 +75,7 @@ Problem: Für B und C bleibt nur noch blau; sind aber benachbart!
 
 ## Forward Checking findet nicht alle Inkonsistenzen!
 
-<img src="images/forward_checking.png" width="40%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/forward_checking_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/forward_checking_dark.png"><img src="images/forward_checking.png" width="40%"></picture>
 
 - Nach $`\lbrace A=red, D=green \rbrace`$ bleibt für B und C nur noch
   blue
@@ -222,11 +222,11 @@ Abschnitt 5.2 “Constraint Propagation”.
 >
 > 1.  Ist die Kante zwischen a und b konsistent?
 >
->     <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/csp/images/csp_challenge_a.png?raw=true" width="20%">
+>     <picture><source media="(prefers-color-scheme: light)" srcset="images/csp_challenge_a_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/csp_challenge_a_dark.png"><img src="images/csp_challenge_a.png" width="20%"></picture>
 >
 > 2.  Wann ist der Graph lokal konsistent?
 >
->     <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/csp/images/csp_challenge_b.png?raw=true" width="15%">
+>     <picture><source media="(prefers-color-scheme: light)" srcset="images/csp_challenge_b_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/csp_challenge_b_dark.png"><img src="images/csp_challenge_b.png" width="15%"></picture>
 >
 >     - a {1,2}; b {2,3}; c {1,2,3}; d {1,2,3}
 >     - a {1,2}; b {2,3}; c {3}; d {1,2}
@@ -235,7 +235,7 @@ Abschnitt 5.2 “Constraint Propagation”.
 >
 > 3.  Wie sieht die Queue im nächsten Schritt mit AC3 aus?
 >
->     <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/csp/images/csp_challenge_c.png?raw=true" width="25%">
+>     <picture><source media="(prefers-color-scheme: light)" srcset="images/csp_challenge_c_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/csp_challenge_c_dark.png"><img src="images/csp_challenge_c.png" width="25%"></picture>
 >
 >     Aktuelle Queue: \[ab, ac, ba, bc, ca, cb\]
 >
@@ -274,4 +274,4 @@ Abschnitt 5.2 “Constraint Propagation”.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e98a365 (lecture: use local images for challenges (CSP3), 2025-10-15)<br></sub></sup></p></blockquote>
