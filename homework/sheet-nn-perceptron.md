@@ -86,8 +86,8 @@ Wiederholungen betrachten.
   die Entscheidungsrenze während des Trainings verändert.
 
 Sie können das folgende [**Jupyter
-Notebook**](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/homework/files/perzeptron_lernalgorithmus_starter.ipynb)
-als Startpunkt benutzen.
+Notebook**](files/perzeptron_lernalgorithmus_starter.ipynb) als
+Startpunkt benutzen.
 
 Quelle: *Idee nach* Yaser S. Abu-Mostafa, Malik Magdon-Ismail, and
 Hsuan-Tien Lin. 2012. Learning From Data. AMLBook.
@@ -98,4 +98,4 @@ Hsuan-Tien Lin. 2012. Learning From Data. AMLBook.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 2ed282e (homework: move discussion task ai and society back to first assignment, 2025-09-15)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5c788e7 (homework: use local files for attachments (Sheet NN), 2025-10-15)<br></sub></sup></p></blockquote>
