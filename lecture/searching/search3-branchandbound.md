@@ -74,6 +74,15 @@ Variante der Breitensuche mit Kosten
 *Hinweis*: Die Branch-and-Bound-Suche taucht im ([Russell und Norvig
 2021](#ref-Russell2021)) als Erweiterung der “Uniformen Suche” auf …
 
+*Hinweis*: Es gibt auch den
+[Dijkstra-Algorithmus](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
+Im Unterschied zu Branch-and-Bound berechnet der Dijkstra-Algorithmus
+die kürzesten Wege von einem Startknoten zu allen anderen Knoten, der
+restliche algorithmische Ablauf ist aber identisch (Nutzung von $`g(n)`$
+und einer sortierten Queue). (Man könnte also sagen, Branch-and-Bound
+ist ein Spezialfall vom Dijkstra, wenn wir nämlich die Berechnung auf
+den kürzesten Pfad vom Start zum Ziel beschränken.)
+
 ## BnB: Finde einen Weg von A nach H
 
 <picture><source media="(prefers-color-scheme: light)" srcset="images/tafelbeispiel_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/tafelbeispiel_dark.png"><img src="images/tafelbeispiel.png" width="60%"></picture>
@@ -197,4 +206,4 @@ Siehe [A\*](search5-astar.md)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 1c7b9c9 (lecture: add relation to Dijkstra (Search3), 2025-10-22)<br></sub></sup></p></blockquote>

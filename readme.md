@@ -26,6 +26,18 @@ autonomen Fahrzeugen, …
 
 ## Förderungen und Kooperationen
 
+### Kooperation mit SEECS/NUST, CST/RUB, TDU und HSBI
+
+Im Winter 2025 laden wir Sie zur internationalen, online durchgeführten
+Projektwoche “AI Connect” mit spannenden Challenges rund um das Thema
+Künstliche Intelligenz ein, die wir gemeinsam mit der [Hochschule
+Bielefeld (HSBI)](https://www.hsbi.de/), der [Türkisch-Deutschen
+Universität in Istanbul (TDU)](https://www.tau.edu.tr/en), der [School
+of Electrical Engineering & Computer Science (SEECS/NUST) in
+Pakistan](https://seecs.nust.edu.pk/) und dem [College of Science and
+Technology in Bhutan (CST/RUB)](https://cst.edu.bt/) für unsere
+Studierenden organisieren.
+
 ### Kooperation zw. HSBI und TDU
 
 Über das Projekt [“Digital Mobil @ FH
@@ -34,10 +46,9 @@ Bielefeld (HSBI) ist im Sommer 2020 eine Kooperation mit der
 Türkisch-Deutschen Universität in Istanbul (TDU) im Modul “Künstliche
 Intelligenz” gestartet.
 
-Wir werden in diesem Semester die Vorlesungen und auch die
-Übungen/Praktika wieder im Co-Teaching durchführen. In den
-Zoom-Sitzungen nehmen deshalb alle Studierenden gemeinsam (TDU und HSBI)
-teil.
+Wir werden in diesem Semester die Vorlesungen wieder im Co-Teaching
+durchführen. In den Zoom-Sitzungen nehmen deshalb alle Studierenden
+gemeinsam (TDU und HSBI) teil.
 
 ### Kooperation mit dem DigikoS-Projekt
 
@@ -65,4 +76,4 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename origin to credits, 2025-08-22)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5ca2cc0 (orga: fix text on HSBI/TDU collaboration (Readme), 2025-10-22)<br></sub></sup></p></blockquote>
