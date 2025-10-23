@@ -30,7 +30,7 @@
 
 > [!TIP]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
@@ -75,9 +75,53 @@
 
 <!-- -->
 
-- **Alternativ**: Speicherung von Positionen plus Bewertung in
-  Datenbanken =\> Lookup mit $`\mathop{\text{Eval}}(s)`$ (statt
-  Berechnung zur Laufzeit)
+- **Alternativ**:
+  - Speicherung von Positionen plus Bewertung in **Datenbanken** =\>
+    Lookup mit $`\mathop{\text{Eval}}(s)`$ (statt Berechnung zur
+    Laufzeit)
+  - Training von **ML-Modellen** (Eingabe: Position, Ausgabe: Bewertung)
+    =\> Lookup mit $`\mathop{\text{Eval}}(s)`$ (statt Berechnung zur
+    Laufzeit also eine Art Klassifikation der aktuellen Position durch
+    das MLP, welches die gelernte Bewertung ausgibt)
+
+Oft ist das vollständige Berechnen eines Zweiges im Suchbaum sehr
+zeitaufwändig und kostet viele Ressourcen (Speicher, Rechenkapazität).
+In einem laufenden Spiel hat man aber nur begrenzt Zeit, und oft laufen
+Spiele auf dedizierten Geräten mit eher beschränkter Hardware.
+
+Wenn die einzelnen Zweige nicht mehr bis zu den Blättern berechnet
+werden (können), muss man den aktuellen Zustand aber dennoch bewerten
+können. Dies wird im Algorithmus durch die Funktion
+$`\mathop{\text{Eval}}(s)`$ erledigt (für den Zustand $`s`$).
+
+Für diese Funktion kann man unterschiedliche Strategien anwenden:
+
+- Oft gibt es Heuristiken, mit denen eine Stellung im Spiel ungefähr
+  bewertet werden kann (obiges Beispiel: Schach mit der
+  Materialbewertung). Damit müssen nicht alle Züge im Vorfeld
+  durchgerechnet werden.
+- Eine andere häufig genutzte Strategie ist das Berechnen von möglichst
+  vielen Positionen und der jeweiligen Bewertung vor dem Spiel und das
+  Abspeichern der Tupel (Position, Bewertung) in einer Datenbank. Im
+  Spiel selbst kann man dann relativ schnell die Bewertung der aktuellen
+  Position aus der Datenbank holen.
+- Eine weitere häufig angewendete Strategie ist das Trainieren eines
+  neuronalen Netzes (etwa Multilagen-Perzeptron, MLP) mit vorab
+  berechneten Positionen und Bewertungen. Im Spiel wird dann die
+  aktuelle Position in das Netz gegeben und der Output als Bewertung
+  genutzt.
+- Eine weitere Strategie ist die Monte Carlo Tree Search. In einer
+  Position hat man i.d.R. relativ viele Möglichkeiten, d.h. der Knoten
+  im Suchbaum hat entsprechend viele Ausgänge. Statt nun zeitaufwändig
+  die vollständige Suche über alle Ausgänge durchzuführen, wird die
+  Berechnung nur für zufällig gewählte Zweige durchgeführt und das
+  Ergebnis gemittelt und als Schätzung für die Bewertung des Knotens
+  genutzt.
+- Zum Berechnen der Bewertungen kann auch Reinforcement Learning
+  herangezogen werden. Hier machen die Agenten nacheinander ihre Züge
+  und erst am Ende erfolgt eine Bewertung durch den Trainer. Diese
+  Bewertung wird dann auf die einzelnen Züge zurückgerechnet, und durch
+  mehrfaches Durchspielen immer weiter verbessert.
 
 ## Minimax mit mehreren Spielern
 
@@ -92,10 +136,13 @@ Zug auswählen, der für einen der Mitspieler günstiger ist.
 
 ## Zufallsspiele
 
-Quelle: [“position-backgammon-decembre”](https://www.flickr.com/photos/83436399@N04/11267311625)
-by [serialgamer_fr](https://www.flickr.com/photos/83436399@N04) on
-Flickr.com ([CC BY
-2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Backgammon_lg.png/960px-Backgammon_lg.png" width="60%">
+
+Quelle: [Backgammon
+lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by
+[Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia
+Commons ([Public
+Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
 Backgammon: Was ist in dieser Situation der optimale Zug?
 
@@ -153,7 +200,8 @@ der Nachfolger arbeiten.
 
 - Russell und Norvig ([2021](#ref-Russell2021)): Erweiterungen und
   Heuristiken: Abschnitte 6.2.2, 6.3, 6.5
-- Ertel ([2025](#ref-Ertel2025))
+- Ertel ([2025](#ref-Ertel2025)): Kapitel 6.5 “Heuristische
+  Bewertungsfunktionen”
 
 > [!NOTE]
 >
@@ -214,9 +262,10 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
-- [“position-backgammon-decembre”](https://www.flickr.com/photos/83436399@N04/11267311625)
-  by [serialgamer_fr](https://www.flickr.com/photos/83436399@N04) on
-  Flickr.com ([CC BY
-  2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+- [Backgammon
+  lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by
+  [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia
+  Commons ([Public
+  Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 10f17df (lecture: update to 2025 edition of Ertel, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c9e46ab (lecture: update readings on Minimax and Alpha-Beta-Pruning (Games), 2025-10-23)<br></sub></sup></p></blockquote>

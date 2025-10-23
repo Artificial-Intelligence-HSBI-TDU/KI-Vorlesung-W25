@@ -39,7 +39,7 @@
 
 > [!TIP]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
@@ -115,6 +115,17 @@ auf die Hilfsvariable `v` verzichtet wird und stattdessen `alpha` bzw.
 `beta` direkt modifiziert werden und als Rückgabewert dienen. Das *kann*
 zu anderen oder falschen Ergebnissen führen! Sie können das in der
 Aufgabe auf Blatt 03 gut beobachten.
+
+Hier noch zwei Links zu Online-Simulatoren für Minimax und
+Alpha-Beta-Pruning:
+
+[homepage.ufp.pt/jtorres/ensino/ia/alfabeta.html](http://homepage.ufp.pt/jtorres/ensino/ia/alfabeta.html)
+
+[raphsilva.github.io/utilities/minimax_simulator/](https://raphsilva.github.io/utilities/minimax_simulator/#)
+(englische Variante von https://github.com/lerneumann/minimax)
+
+Vergleichen Sie die Ergebnisse im Simulator mit den selbst berechneten
+Werten.
 
 ## Alpha-beta-Pruning – Eigenschaften
 
@@ -199,7 +210,7 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 
 - Russell und Norvig ([2021](#ref-Russell2021)): Alpha-beta-Pruning:
   Abschnitt 6.2.3, Erweiterungen: Abschnitt 6.3
-- Ertel ([2025](#ref-Ertel2025))
+- Ertel ([2025](#ref-Ertel2025)): Kapitel 6.4.2 “Alpha-Beta-Pruning”
 
 > [!NOTE]
 >
@@ -318,4 +329,4 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e118a38 (lecture: fix missing link to video (Games4), 2025-10-08)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 36b7f22 (lecture: add links to online simulations for Alpha-Beta-Pruning (Games4), 2025-10-23)<br></sub></sup></p></blockquote>

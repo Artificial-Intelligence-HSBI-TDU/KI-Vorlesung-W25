@@ -24,7 +24,7 @@
 
 > [!TIP]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
@@ -181,7 +181,7 @@ Gedankenexperiment:
 ## 📖 Zum Nachlesen
 
 - Russell und Norvig ([2021](#ref-Russell2021)): Minimax: Abschnitt 6.2
-- Ertel ([2025](#ref-Ertel2025))
+- Ertel ([2025](#ref-Ertel2025)): Kapitel 6.4.1 “Minimax-Suche”
 
 > [!NOTE]
 >
@@ -278,4 +278,4 @@ Gedankenexperiment:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9d97ac9 (lecture: fix missing link to video (Games2), 2025-10-08)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c9e46ab (lecture: update readings on Minimax and Alpha-Beta-Pruning (Games), 2025-10-23)<br></sub></sup></p></blockquote>

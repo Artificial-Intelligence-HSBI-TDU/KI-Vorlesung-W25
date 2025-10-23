@@ -2,17 +2,18 @@
 
 > [!TIP]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> Video-Mitschnitt “Einführung in Jupyter-Notebooks … coming soon …
+> [Video-Mitschnitt “Einführung in
+> Jupyter-Notebooks](https://youtu.be/m9y9m-HQTys)
 >
 > </details>
 
 > [!NOTE]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
@@ -26,4 +27,4 @@
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 0c5424e (lecture: use local files for attachments (Intro3), 2025-10-15)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 39f7159 (lecture: add video on Jupyter notebooks (Intro3) (#474), 2025-10-23)<br></sub></sup></p></blockquote>

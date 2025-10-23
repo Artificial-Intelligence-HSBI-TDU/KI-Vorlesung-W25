@@ -36,7 +36,7 @@
 
 > [!TIP]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
@@ -582,9 +582,9 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
-- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
-  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+- [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
+  [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
+  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
   on Wikipedia ([CC BY-SA
   3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 - [AvB - RoboCup 2013 -
@@ -592,9 +592,9 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
   Flickr.com ([CC BY
   2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
-- [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
-  [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
-  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
+- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
+  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
   on Wikipedia ([CC BY-SA
   3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 

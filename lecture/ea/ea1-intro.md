@@ -18,7 +18,7 @@
 
 > [!TIP]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
@@ -78,7 +78,9 @@ neue Spielfelder).
 ## EA – Strömungen
 
 1.  **Genetische Algorithmen** (GA)
-    - Holland und Goldberg (ab 1960)
+    - Holland ([1975](#ref-holland1975)) (Holland
+      ([1992](#ref-holland1992))) und Goldberg
+      ([1986](#ref-goldberg1986))
     - Binäre Lösungsrepräsentation (Bitstring):
       $`\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m`$
     - Fitnessbasierte stochastische Selektion
@@ -87,7 +89,8 @@ neue Spielfelder).
 <!-- -->
 
 1.  **Evolutionsstrategien** (ES)
-    - Rechenberg und Schwefel (ab 1960)
+    - Rechenberg ([1978](#ref-rechenberg1978)) und Schwefel
+      ([1975](#ref-schwefel1975)) (Schwefel ([1995](#ref-Schwefel1995)))
     - Kodierung reellwertiger Parameter:
       $`\mathbf{g} = (\mathbf{x}, \mathbf{\sigma})`$ mit
       $`\mathbf{x} = (x_1, \dots, x_n) \in \mathbb{R}^n`$
@@ -124,11 +127,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 ## 📖 Zum Nachlesen
 
 - Russell und Norvig ([2021](#ref-Russell2021)): GA: Abschnitt 4.1.4
-- Schwefel ([1995](#ref-Schwefel1995)): Originalarbeit zu
-  Evolutionsstrategien
-- Michalewicz ([1996](#ref-Michalewicz1996))
-- Bäck ([1996](#ref-Baeck1996))
-- Nissen ([1997](#ref-Nissen1997))
+- Weicker ([2015](#ref-Weicker2015))
 
 > [!NOTE]
 >
@@ -156,24 +155,36 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Baeck1996" class="csl-entry">
+> <div id="ref-goldberg1986" class="csl-entry">
 >
-> Bäck, T. 1996. *Evolutionary Algorithms in Theory and Praxis*. Oxford
-> University Press.
->
-> </div>
->
-> <div id="ref-Michalewicz1996" class="csl-entry">
->
-> Michalewicz, Z. 1996. *Genetic Algorithms + Data Structures =
-> Evolution Programs*. Springer.
+> Goldberg, D. E. 1986. „The genetic algorithm approach: why, how, and
+> what next?“ In *Adaptive and learning systems: Theory and
+> applications*, 247–53. Springer.
 >
 > </div>
 >
-> <div id="ref-Nissen1997" class="csl-entry">
+> <div id="ref-holland1975" class="csl-entry">
 >
-> Nissen, V. 1997. *Einführung in Evolutionäre Algorithmen*.
-> Vieweg+Teubner Verlag.
+> Holland, J. H. 1975. „Adaptation in Natural and Artificial Systems: An
+> Introductory Analysis with Applications to Biology, Control, and
+> Artificial Intelligence“. Phdthesis, PhD Thesis, University of
+> Michigan Press, Ann Arbor.
+>
+> </div>
+>
+> <div id="ref-holland1992" class="csl-entry">
+>
+> ———. 1992. *Adaptation in Natural and Artificial Systems: An
+> Introductory Analysis with Applications to Biology, Control, and
+> Artificial Intelligence*. MIT press.
+>
+> </div>
+>
+> <div id="ref-rechenberg1978" class="csl-entry">
+>
+> Rechenberg, I. 1978. „Evolutionsstrategien“. In *Simulationsmethoden
+> in der Medizin und Biologie: Workshop, Hannover, 29. Sept.–1. Okt.
+> 1977*, 83–114. Springer.
 >
 > </div>
 >
@@ -184,9 +195,24 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > </div>
 >
+> <div id="ref-schwefel1975" class="csl-entry">
+>
+> Schwefel, H. P. 1975. „Evolutionsstrategie und numerische
+> Optimierung“. Phdthesis, PhD Thesis, Technical University of Berlin,
+> Department of Process Engineering.
+>
+> </div>
+>
 > <div id="ref-Schwefel1995" class="csl-entry">
 >
-> Schwefel, H. P. 1995. *Evolution and Optimum Seeking*. Wiley.
+> ———. 1995. *Evolution and Optimum Seeking*. Wiley.
+>
+> </div>
+>
+> <div id="ref-Weicker2015" class="csl-entry">
+>
+> Weicker, K. 2015. *Evolutionäre Algorithmen*. 3rd edition. Springer
+> Vieweg Wiesbaden. <https://doi.org/10.1007/978-3-658-09958-9>.
 >
 > </div>
 >
@@ -206,4 +232,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
   ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2a2d1ce (lecture: update readings for EA/GA, 2025-10-23)<br></sub></sup></p></blockquote>

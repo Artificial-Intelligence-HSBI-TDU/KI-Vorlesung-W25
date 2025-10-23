@@ -23,7 +23,7 @@
 
 > [!TIP]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
@@ -33,10 +33,13 @@
 
 ## Backgammon: Zwei Spieler, was ist der beste Zug?
 
-Quelle: [“position-backgammon-decembre”](https://www.flickr.com/photos/83436399@N04/11267311625)
-by [serialgamer_fr](https://www.flickr.com/photos/83436399@N04) on
-Flickr.com ([CC BY
-2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Backgammon_lg.png/960px-Backgammon_lg.png" width="60%">
+
+Quelle: [Backgammon
+lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by
+[Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia
+Commons ([Public
+Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
 Zwei Spieler, ein Spielstand und ein Würfelergebnis: **Was ist jetzt der
 beste Zug?!**
@@ -111,7 +114,7 @@ beste Zug?!**
 
 - Russell und Norvig ([2021](#ref-Russell2021)): Einführung Spiele:
   Abschnitt 6.1
-- Ertel ([2025](#ref-Ertel2025))
+- Ertel ([2025](#ref-Ertel2025)): Kapitel 6.4 “Spiele mit Gegner”
 
 > [!NOTE]
 >
@@ -162,9 +165,10 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
-- [“position-backgammon-decembre”](https://www.flickr.com/photos/83436399@N04/11267311625)
-  by [serialgamer_fr](https://www.flickr.com/photos/83436399@N04) on
-  Flickr.com ([CC BY
-  2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+- [Backgammon
+  lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by
+  [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia
+  Commons ([Public
+  Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 10f17df (lecture: update to 2025 edition of Ertel, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c9e46ab (lecture: update readings on Minimax and Alpha-Beta-Pruning (Games), 2025-10-23)<br></sub></sup></p></blockquote>

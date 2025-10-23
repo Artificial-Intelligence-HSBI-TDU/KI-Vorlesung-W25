@@ -2,7 +2,7 @@
 
 > [!TIP]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
@@ -17,7 +17,7 @@
 
 > [!NOTE]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
