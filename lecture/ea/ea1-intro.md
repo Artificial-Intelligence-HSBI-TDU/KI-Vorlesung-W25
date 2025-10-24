@@ -29,7 +29,7 @@
 
 ## Evolution sehr erfolgreich bei Anpassung
 
-<img src="https://images.unsplash.com/flagged/photo-1552863473-6e5ffe5e052f?fm=png&crop=entropy&cs=tinysrgb" width="60%">
+<img src="https://images.unsplash.com/flagged/photo-1552863473-6e5ffe5e052f" width="60%">
 
 Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
 [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
@@ -232,4 +232,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
   ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 2a2d1ce (lecture: update readings for EA/GA, 2025-10-23)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 765d342 (lecture: fix image url (EA1), 2025-10-24)<br></sub></sup></p></blockquote>

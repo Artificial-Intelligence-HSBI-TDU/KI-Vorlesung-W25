@@ -582,6 +582,11 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
+- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
+  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+  on Wikipedia ([CC BY-SA
+  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 - [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
   [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
   [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
@@ -592,10 +597,5 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
   Flickr.com ([CC BY
   2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
-- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
-  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
-  on Wikipedia ([CC BY-SA
-  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 
 <blockquote><p><sup><sub><strong>Last modified:</strong> 10f17df (lecture: update to 2025 edition of Ertel, 2025-09-27)<br></sub></sup></p></blockquote>
