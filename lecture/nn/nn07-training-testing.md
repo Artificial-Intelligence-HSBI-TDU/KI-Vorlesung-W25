@@ -61,8 +61,7 @@
     - Beispiel: Hat man 1000 Beispiele im Testset, wird $`E_{test}`$ mit
       $`\ge 98\%`$ Wahrscheinlichkeit in der $`\pm 5\%`$ Umgebung von
       $`E_{out}`$ liegen (für theoretische Grundlagen und Herleitung
-      siehe ([Abu-Mostafa, Magdon-Ismail, und Lin 2012,
-      39–69](#ref-AbuMostafa2012))).
+      siehe ([Abu-Mostafa u. a. 2012, 39–69](#ref-AbuMostafa2012))).
   - Trainingsdaten und Testdaten sollten möglichst aus derselben
     Verteilung kommen, wie die zukünftigen **Real-World-Daten**.
 
@@ -225,8 +224,7 @@ E_{CV}(m) := \frac{1}{k} \sum_{i=1}^{k} e_i = \frac{1}{k} \sum_{i=1}^{k} E_{val}
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-AbuMostafa2012" class="csl-entry">
 >

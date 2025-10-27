@@ -13,7 +13,6 @@
 > Mechanismen aus der Evolution: Es gibt eine Population von Individuen,
 > die jedes das Problem kodieren (“vollständige Zustandsbeschreibung”)
 > und damit im Laufe der Suche zu einer möglichen Lösung werden können.
->
 > </details>
 
 > [!TIP]
@@ -152,14 +151,13 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-goldberg1986" class="csl-entry">
 >
 > Goldberg, D. E. 1986. „The genetic algorithm approach: why, how, and
 > what next?“ In *Adaptive and learning systems: Theory and
-> applications*, 247–53. Springer.
+> applications*. Springer.
 >
 > </div>
 >
@@ -174,7 +172,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > <div id="ref-holland1992" class="csl-entry">
 >
-> ———. 1992. *Adaptation in Natural and Artificial Systems: An
+> Holland, J. H. 1992. *Adaptation in Natural and Artificial Systems: An
 > Introductory Analysis with Applications to Biology, Control, and
 > Artificial Intelligence*. MIT press.
 >
@@ -182,9 +180,9 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > <div id="ref-rechenberg1978" class="csl-entry">
 >
-> Rechenberg, I. 1978. „Evolutionsstrategien“. In *Simulationsmethoden
-> in der Medizin und Biologie: Workshop, Hannover, 29. Sept.–1. Okt.
-> 1977*, 83–114. Springer.
+> Rechenberg, I. 1978. „Evolutionsstrategien“. *Simulationsmethoden in
+> der Medizin und Biologie: Workshop, Hannover, 29. Sept.–1. Okt. 1977*,
+> 83–114.
 >
 > </div>
 >
@@ -205,7 +203,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > <div id="ref-Schwefel1995" class="csl-entry">
 >
-> ———. 1995. *Evolution and Optimum Seeking*. Wiley.
+> Schwefel, H. P. 1995. *Evolution and Optimum Seeking*. Wiley.
 >
 > </div>
 >

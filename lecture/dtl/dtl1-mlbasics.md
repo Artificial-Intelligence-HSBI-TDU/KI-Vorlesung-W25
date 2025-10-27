@@ -34,7 +34,6 @@
 > werden. Trainingsdaten sind ausgewählte Beispielobjekte (durch
 > Merkmalsvektoren beschrieben) plus die Vorgabe (Klasse oder
 > Funktionswert) vom Lehrer.
->
 > </details>
 
 > [!TIP]
@@ -361,7 +360,6 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 > Trainingsergebnisse sind in der Tabelle unter “Vorhersage” angegeben.
 >
 > Bewerten Sie den Klassifikator.
->
 > </details>
 
 ------------------------------------------------------------------------
@@ -372,8 +370,7 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

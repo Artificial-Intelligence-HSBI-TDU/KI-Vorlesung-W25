@@ -17,7 +17,6 @@
 > (d.h. der bisher günstigste partielle Weg) wird **vorn** aus der Queue
 > genommen. Branch-and-Bound arbeitet mit den bisher entstandenen
 > (realen) Kosten der partiellen Wege.
->
 > </details>
 
 > [!TIP]
@@ -186,8 +185,7 @@ Siehe [A\*](search5-astar.md)
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

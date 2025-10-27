@@ -20,7 +20,6 @@
 > letzten Knoten mit einer Alternative zurückgegangen. Dies liegt daran,
 > dass bei einer Sackgasse keine Nachfolger expandiert und oben auf den
 > Stack gelegt werden.
->
 > </details>
 
 > [!TIP]
@@ -241,8 +240,7 @@ Siehe [Breitensuche](search2-bfs.md)
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

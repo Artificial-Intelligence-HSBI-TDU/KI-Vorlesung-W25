@@ -43,8 +43,7 @@
   > Amateuren unterscheidet, ist ihre Fähigkeit mit Überanpassung
   > umzugehen.”
   >
-  > – Quelle: ([Abu-Mostafa, Magdon-Ismail, und Lin 2012,
-  > 119](#ref-AbuMostafa2012))
+  > – Quelle: ([Abu-Mostafa u. a. 2012, 119](#ref-AbuMostafa2012))
 
 - Anzeichen von Überanpassung sind geringe Trainingskosten und hohe
   **Testkosten** (Kosten auf nicht-gesehenen Daten).
@@ -69,8 +68,7 @@ w_j := w_j - \frac{\alpha}{m} \left\lbrack \sum_{i=1}^m \left( ( a^{[i]} - y^{[i
 
 ## 📖 Zum Nachlesen
 
-- Abu-Mostafa, Magdon-Ismail, und Lin ([2012](#ref-AbuMostafa2012)):
-  Kapitel 4
+- Abu-Mostafa u. a. ([2012](#ref-AbuMostafa2012)): Kapitel 4
 
 > [!NOTE]
 >
@@ -108,8 +106,7 @@ w_j := w_j - \frac{\alpha}{m} \left\lbrack \sum_{i=1}^m \left( ( a^{[i]} - y^{[i
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-AbuMostafa2012" class="csl-entry">
 >

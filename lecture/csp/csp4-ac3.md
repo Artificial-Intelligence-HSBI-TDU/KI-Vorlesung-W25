@@ -29,7 +29,6 @@
 > der BT-Suche reduzieren. Eventuell findet man dabei bereits eine
 > Lösung oder kann eine Lösung ausschließen. Man kann den AC-3 auch als
 > Inferenzschritt in die BT-Suche einbetten (“MAC”).
->
 > </details>
 
 > [!TIP]
@@ -254,8 +253,7 @@ Abschnitt 5.2 “Constraint Propagation”.
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

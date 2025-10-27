@@ -14,7 +14,6 @@
 > Nachfolgeknoten nach dem stärksten Anstieg der Kostenfunktion
 > auswählen. Dieses Verfahren nennt sich auch **Hill-Climbing** (bzw.
 > Gradientensuche).
->
 > </details>
 
 > [!TIP]
@@ -177,7 +176,6 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > Finden Sie mit der **Gradienten-Suche** jeweils einen Weg von Würzburg
 > nach München. Vergleichen Sie das Ergebnis mit der Best-First-Suche.
->
 > </details>
 
 ------------------------------------------------------------------------
@@ -188,8 +186,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

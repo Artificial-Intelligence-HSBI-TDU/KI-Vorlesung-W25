@@ -20,7 +20,6 @@
 > Verwendung der Heuristik werden die partiellen Pfade in der Queue aber
 > geschickter sortiert, so dass A\* in der Regel mit weniger
 > Suchschritten als BnB auskommt.
->
 > </details>
 
 > [!TIP]
@@ -275,8 +274,7 @@ Außerdem muss gelten:
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

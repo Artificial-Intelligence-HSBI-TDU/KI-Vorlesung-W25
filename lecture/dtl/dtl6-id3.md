@@ -22,7 +22,6 @@
 > Durch eine Normierung des *Information Gain* kann eine Verbesserung in
 > Bezug auf mehrwertige Attribute erreicht werden, dies führt zum
 > Algorithmus **C4.5**.
->
 > </details>
 
 > [!TIP]
@@ -299,8 +298,7 @@ durch die Normierung in C4.5 aufgehoben wird.
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Ertel2025" class="csl-entry">
 >

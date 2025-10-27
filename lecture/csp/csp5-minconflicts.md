@@ -24,7 +24,6 @@
 > Wie dort hat man bei der Min-Conflicts Heuristik Schwierigkeiten mit
 > Plateaus, denen man durch *Noise* und Restarts entgegenzuwirken
 > versucht.
->
 > </details>
 
 > [!TIP]
@@ -219,8 +218,7 @@ Abschnitt 5.4 “Local Search for CSPs”.
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

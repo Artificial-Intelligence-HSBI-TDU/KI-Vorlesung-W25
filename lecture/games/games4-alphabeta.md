@@ -34,7 +34,6 @@
 > hier kann die Bewertungsfunktion wieder gewichtete Features nutzen
 > und/oder Positionen mit in Datenbanken gespeicherten Positionen und
 > Bewertungen abgleichen.
->
 > </details>
 
 > [!TIP]
@@ -187,7 +186,8 @@ Quelle: ([Russell und Norvig 2014](#ref-Russell2014), p. 185)
   - Reinforcement-Lernen: Self-Play, Bewertung am Ende
     - Züge mit Monte-Carlo-Baumsuche ausgewählt
 
-Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
+Quelle: ([<span class="nocase">Silver u. a.</span>
+2016](#ref-Silver2016)), siehe auch
 [deepmind.com/research/alphago/](https://deepmind.com/research/case-studies/alphago-the-story-so-far)
 
 ## Wrap-Up
@@ -283,8 +283,7 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Ertel2025" class="csl-entry">
 >
@@ -304,17 +303,16 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >
-> ———. 2021. *Artificial Intelligence: A Modern Approach*. 4th Edition.
-> Pearson. <http://aima.cs.berkeley.edu>.
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
+> Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
 >
 > <div id="ref-Silver2016" class="csl-entry">
 >
-> Silver, D., A. Huang, C. Maddison, A. Guez, L. Sifre, G. Van Den
-> Driessche, I. Schrittwieser J. Schrittwieser, V. Panneershelvam, M.
-> Lanctot, u. a. 2016. „Mastering the Game of Go with Deep Neural
-> Networks and Tree Search“. *Nature* 529 (7587): 484.
+> <span class="nocase">Silver, D., A. Huang, C. Maddison, u. a.</span>
+> 2016. „Mastering the Game of Go with Deep Neural Networks and Tree
+> Search“. *Nature* 529 (7587): 484.
 > <https://doi.org/10.1038/nature16961>.
 >
 > </div>

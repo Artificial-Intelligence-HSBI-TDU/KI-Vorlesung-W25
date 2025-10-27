@@ -28,7 +28,6 @@
 > Individuen dienen, kann es wie bei allen lokalen Suchverfahren
 > vorkommen, dass sich der Algorithmus in lokalen Minima (bzw. lokalen
 > Maxima, je nach Richtung der Optimierung) festfrisst.
->
 > </details>
 
 > [!TIP]
@@ -303,7 +302,6 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > Was würden Sie noch benötigen, um das Probleme mit Simulated Annealing
 > lösen zu können?
->
 > </details>
 
 ------------------------------------------------------------------------
@@ -314,8 +312,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

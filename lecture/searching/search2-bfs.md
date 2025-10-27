@@ -15,7 +15,6 @@
 > Nachfolger werden immer **hinten** in die Queue eingefügt, und der
 > nächste zu expandierende Knoten wird **vorn** aus der Queue genommen.
 > Dadurch wird bei der Breitensuche der Suchbaum ebenenweise entwickelt.
->
 > </details>
 
 > [!TIP]
@@ -202,8 +201,7 @@ anwendbaren Operationen bestimmt.)
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

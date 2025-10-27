@@ -23,7 +23,6 @@
 >
 > Während die MRV relativ leicht umzusetzen ist, muss man für die LCV
 > alle Constraints zu den Nachbarn auswerten.
->
 > </details>
 
 > [!TIP]
@@ -205,8 +204,7 @@ Abschnitt 5.3 “Backtracking Search for CSPs”.
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

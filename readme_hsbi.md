@@ -59,7 +59,7 @@ autonomen Fahrzeugen, …
 
 | Vorlesung (2 SWS): bis 26.10. | Vorlesung (2 SWS): ab 26.10. | Praktikum (2 SWS) |
 |:---|:---|:---|
-| Mo, 09:00 - 10:30 Uhr (DE) | Mo, 08:00 - 09:30 Uhr (DE) | G1: Mo, 10:30 - 12:00 Uhr (DE) |
+| Mo, 09:00 - 10:30 Uhr (DE) | Mo, 08:00 - 09:30 Uhr (DE) | G1: Mo, 10:00 - 11:30 Uhr (DE) |
 | (online, Zoom) | (online, Zoom) | G2: Mo, 13:30 - 15:00 Uhr (DE) |
 |  |  | G3: Mo, 15:00 - 16:30 Uhr (DE) |
 |  |  | G4: Mo, 16:30 - 18:00 Uhr (DE) |
@@ -195,4 +195,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 85a9f14 (orga: clarify post mortems: there are no teams (HSBI), 2025-10-14)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 3c0c361 (orga: move g1 to an earlier slot (HSBI), 2025-10-27)<br></sub></sup></p></blockquote>

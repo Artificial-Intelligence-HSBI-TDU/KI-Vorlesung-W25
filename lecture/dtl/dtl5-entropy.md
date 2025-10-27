@@ -17,7 +17,6 @@
 > andersherum: Wähle das Attribut, bei dem die verbleibende mittlere
 > Entropie der Trainingsmenge nach der Wahl des Attributs am kleinsten
 > ist.
->
 > </details>
 
 > [!TIP]
@@ -285,8 +284,7 @@ Hierzu drei lesenswerte Blog-Einträge:
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Ertel2025" class="csl-entry">
 >

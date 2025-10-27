@@ -18,7 +18,6 @@
 > Reaktionszeit auf einen Zug des Gegners), muss man hier intelligente
 > Lösungen finden. (Einige davon werden wir in den folgenden Sitzungen
 > anschauen).
->
 > </details>
 
 > [!TIP]
@@ -135,8 +134,7 @@ beste Zug?!**
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Ertel2025" class="csl-entry">
 >

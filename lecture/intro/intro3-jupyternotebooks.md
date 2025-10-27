@@ -8,7 +8,6 @@
 >
 > [Video-Mitschnitt “Einführung in
 > Jupyter-Notebooks](https://youtu.be/m9y9m-HQTys)
->
 > </details>
 
 > [!NOTE]
@@ -18,7 +17,6 @@
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > [starter.ipynb](files/jupyter_starter.ipynb)
->
 > </details>
 
 ------------------------------------------------------------------------

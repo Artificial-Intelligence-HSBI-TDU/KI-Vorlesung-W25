@@ -19,7 +19,6 @@
 > Minimax baut den gesamten Spielbaum bis zu den Blättern auf. Die
 > Blätter (Spielausgang) werden mit einer `Utility`-Funktion bewertet,
 > und diese Bewertung wird dann im Spielbaum nach oben gereicht.
->
 > </details>
 
 > [!TIP]
@@ -250,8 +249,7 @@ Gedankenexperiment:
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Ertel2025" class="csl-entry">
 >

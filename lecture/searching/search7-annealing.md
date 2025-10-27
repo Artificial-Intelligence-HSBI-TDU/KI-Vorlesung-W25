@@ -23,7 +23,6 @@
 > Temperatur niedriger, so dass das Verfahren in ein normales
 > Hill-Climbing übergeht. Damit kann man ein Festfressen in lokalen
 > Minima vermeiden bzw. überwinden.
->
 > </details>
 
 > [!TIP]
@@ -247,7 +246,6 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > Modellieren Sie dieses Problem geeignet, damit Sie es mit Simulated
 > Annealing lösen können.
->
 > </details>
 
 ------------------------------------------------------------------------
@@ -258,8 +256,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

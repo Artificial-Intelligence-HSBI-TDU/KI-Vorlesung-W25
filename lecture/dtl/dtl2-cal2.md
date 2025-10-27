@@ -30,7 +30,6 @@
 > nimmt man das nächste, auf diesem konkreten Pfad noch nicht verwendete
 > Merkmal. CAL2 kann nur mit diskreten Attributen und disjunkten Klassen
 > einen fehlerfreien Baum erzeugen.
->
 > </details>
 
 > [!TIP]
@@ -242,7 +241,6 @@ Referenzen vom Typ `Baum` sein).
 > Welchen Entscheidungsbaum würde CAL2 lernen, wenn dem
 > Trainingsdatensatz der Vektor $`((a,a,b), 2)`$ als Beispiel Nr. 7
 > hinzugefügt werden würde?
->
 > </details>
 
 ------------------------------------------------------------------------
@@ -253,14 +251,12 @@ Referenzen vom Typ `Baum` sein).
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Unger1981" class="csl-entry">
 >
 > Unger, S., und F. Wysotzki. 1981. *Lernfähige Klassifizierungssysteme
-> (Classifier Systems Which Are Able to Learn)*. Berlin:
-> Akademie-Verlag.
+> (Classifier Systems Which Are Able to Learn)*. Akademie-Verlag.
 >
 > </div>
 >

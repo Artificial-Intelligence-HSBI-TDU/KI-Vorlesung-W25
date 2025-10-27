@@ -25,7 +25,6 @@
 >
 > Über die Transformationsregel kann man einfach die Reihenfolge von
 > Tests im Baum ändern.
->
 > </details>
 
 > [!TIP]
@@ -138,8 +137,7 @@ x_1(x_2(a, b),  x_2(c, d))  \Leftrightarrow  x_2(x_1(a, c),  x_1(b, d))
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Ertel2025" class="csl-entry">
 >

@@ -13,7 +13,6 @@
 > gefunden werden kann, erfolgt Backtracking und die Belegung wird
 > schließlich rückgängig gemacht und durch die nächste Möglichkeit
 > ersetzt.
->
 > </details>
 
 > [!TIP]
@@ -114,8 +113,7 @@ Abschnitt 5.3 “Backtracking Search for CSPs”.
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >

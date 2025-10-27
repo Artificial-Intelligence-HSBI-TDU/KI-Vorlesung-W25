@@ -61,7 +61,6 @@
 > oder nicht da (0) ist oder man zählt die Häufigkeit des Auftretens.
 > Dann kann man mit dem NB-Klassifikator die bedingten
 > Wahrscheinlichkeiten schätzen und einen neuen Text klassifizieren.
->
 > </details>
 
 > [!TIP]
@@ -537,8 +536,7 @@ empfehlenswert.
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Ertel2025" class="csl-entry">
 >

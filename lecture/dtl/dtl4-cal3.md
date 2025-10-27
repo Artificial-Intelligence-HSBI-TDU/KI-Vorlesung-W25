@@ -17,7 +17,6 @@
 > (die Häufigkeit aller Klassen in dem Blatt liegt unter $`S_2`$) nimmt
 > man analog zu CAL2 den nächsten, auf diesem Pfad noch nicht
 > verwendeten Test hinzu.
->
 > </details>
 
 > [!TIP]
@@ -162,14 +161,12 @@ Bäume als CAL2 …
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Unger1981" class="csl-entry">
 >
 > Unger, S., und F. Wysotzki. 1981. *Lernfähige Klassifizierungssysteme
-> (Classifier Systems Which Are Able to Learn)*. Berlin:
-> Akademie-Verlag.
+> (Classifier Systems Which Are Able to Learn)*. Akademie-Verlag.
 >
 > </div>
 >

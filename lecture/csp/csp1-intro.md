@@ -20,7 +20,6 @@
 >
 > Eine Lösung für ein CSP ist eine vollständige und konsistente
 > Belegung.
->
 > </details>
 
 > [!TIP]
@@ -207,7 +206,6 @@ Abschnitt 5.1 “Defining Constraint Satisfaction Problems”.
 >
 > Formulieren Sie [Sudoku](https://en.wikipedia.org/wiki/Sudoku) als CSP
 > und geben Sie Variablen, Domänen und Constraints an.
->
 > </details>
 
 ------------------------------------------------------------------------
@@ -218,8 +216,7 @@ Abschnitt 5.1 “Defining Constraint Satisfaction Problems”.
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >
