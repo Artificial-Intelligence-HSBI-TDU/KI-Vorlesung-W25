@@ -137,7 +137,7 @@ der Lösung im jeweiligen Praktikum in der Abgabewoche.
 
 - **Post Mortem**: Jede Person beschreibt individuell(!) die Bearbeitung
   des jeweiligen Kriteriums bzw. die Teilnahme an den drei Meetings des
-  “AI Connect”-Mini-Projekts zurückblickend mit mind. 200 bis max. 400
+  “AI Connect”-Mini-Projekts zurückblickend mit mind. 150 bis max. 400
   Wörtern (Nutzlast; Überschriften und Links zählen nicht mit). Gehen
   Sie dabei aussagekräftig und nachvollziehbar auf folgende Punkte ein:
 
@@ -195,4 +195,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 3c0c361 (orga: move g1 to an earlier slot (HSBI), 2025-10-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 878ab01 (orga: reduce lower bound of post mortem to 150 words, 2025-11-02)<br></sub></sup></p></blockquote>

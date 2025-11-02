@@ -273,6 +273,34 @@ durch die Normierung in C4.5 aufgehoben wird.
 >
 > <summary><strong>🏅 Challenges</strong></summary>
 >
+> **Games: Behaviour Trees**
+>
+> In einem Dungeon-Crawler wurden über mehrere Spiele Daten für die
+> Aktionen eines Monsters aufgezeichnet. Dabei wurden die folgenden
+> Merkmale für das Monster erfasst (mit entsprechenden Ausprägungen):
+>
+> - Distanz: nah, mittel, fern
+> - HP: niedrig, mittel, hoch
+> - Mana: gering, genug
+>
+> Die Aktionen umfassen Angreifen, Heilen, Fliehen.
+>
+> Die in den vorangegangenen Spielen aufgezeichneten Daten sind:
+>
+> | Nr. | Distanz | HP      | Mana   | Aktion    |
+> |:----|:--------|:--------|:-------|:----------|
+> | 01  | nah     | niedrig | genug  | heilen    |
+> | 02  | fern    | niedrig | gering | fliehen   |
+> | 03  | nah     | hoch    | gering | angreifen |
+> | 04  | nah     | hoch    | genug  | angreifen |
+> | 05  | mittel  | mittel  | genug  | angreifen |
+> | 06  | fern    | mittel  | gering | fliehen   |
+>
+> Trainieren Sie mit diesen Daten einen Entscheidungsbaum als *Behaviour
+> Tree* für das Monster, so dass es in einer konkreten Spielsituation
+> von nun an die optimale Entscheidung treffen kann. Nutzen Sie dafür
+> ID3.
+>
 > **Textklassifikation**
 >
 > Betrachten Sie die folgenden Aussagen:
@@ -331,4 +359,4 @@ durch die Normierung in C4.5 aufgehoben wird.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 10f17df (lecture: update to 2025 edition of Ertel, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> a6a976f (lecture: add challence (DTL), 2025-11-02)<br></sub></sup></p></blockquote>
