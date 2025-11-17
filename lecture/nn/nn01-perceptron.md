@@ -23,6 +23,7 @@
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN01-Das_Perzeptron.pdf](files/NN01-Das_Perzeptron.pdf)
+> - [Perzeptron_Lernalgorithmus.ipynb](files/Perzeptron_Lernalgorithmus.ipynb)
 >
 > </details>
 
@@ -97,4 +98,4 @@ Ein einfaches Modell für die **binäre Klassifizierung**
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> b1984d6 (lecture: use local files for attachments (NN1), 2025-10-15)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5147dca (lecture: add jupyter notebook (Perzeptron) (#496), 2025-11-17)<br></sub></sup></p></blockquote>
