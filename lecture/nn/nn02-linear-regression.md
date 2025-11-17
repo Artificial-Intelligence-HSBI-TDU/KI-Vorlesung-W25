@@ -24,7 +24,7 @@
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
-> - [NN02-Lineare_Regression.pdf](files/NN02-Lineare_Regression.pdf)
+> - [NN02-Lineare_Regression.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN02-Lineare_Regression.pdf)
 >
 > </details>
 
@@ -151,8 +151,8 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 >   Standardisierung, Min-Max Skalierung und Normalisierung auf die
 >   Daten auswirken. Vergleichen Sie dazu die jeweiligen Streudiagramme
 >   (scatterplots). Sie können hierzu das folgende [**Jupyter
->   Notebook**](files/Feature_Scaling_Starter.ipynb) als Startpunkt
->   benutzen.
+>   Notebook**](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/Feature_Scaling_Starter.ipynb)
+>   als Startpunkt benutzen.
 >
 > </details>
 
@@ -162,4 +162,4 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 46ea36d (lecture: use local files for attachments (NN2), 2025-10-15)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 578b7ff (lecture: fix links to attachments, 2025-11-17)<br></sub></sup></p></blockquote>

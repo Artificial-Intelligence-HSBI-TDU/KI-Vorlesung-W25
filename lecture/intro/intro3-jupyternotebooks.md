@@ -16,7 +16,7 @@
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
-> [starter.ipynb](files/jupyter_starter.ipynb)
+> [starter.ipynb](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/intro/files/jupyter_starter.ipynb)
 > </details>
 
 ------------------------------------------------------------------------
@@ -25,4 +25,4 @@
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 39f7159 (lecture: add video on Jupyter notebooks (Intro3) (#474), 2025-10-23)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 578b7ff (lecture: fix links to attachments, 2025-11-17)<br></sub></sup></p></blockquote>

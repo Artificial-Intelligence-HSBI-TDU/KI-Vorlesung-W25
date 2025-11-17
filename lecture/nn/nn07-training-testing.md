@@ -19,7 +19,7 @@
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
-> - [NN07-Testing-Validierung.pdf](files/NN07-Testing-Validierung.pdf)
+> - [NN07-Testing-Validierung.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN07-Testing-Validierung.pdf)
 >
 > </details>
 
@@ -243,4 +243,4 @@ E_{CV}(m) := \frac{1}{k} \sum_{i=1}^{k} e_i = \frac{1}{k} \sum_{i=1}^{k} E_{val}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> a711fb1 (lecture: use local files for attachments (NN7), 2025-10-15)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 578b7ff (lecture: fix links to attachments, 2025-11-17)<br></sub></sup></p></blockquote>

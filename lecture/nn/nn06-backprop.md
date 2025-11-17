@@ -18,8 +18,8 @@
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
-> - [NN06-MLP_Backpropagation.pdf](files/NN06-MLP_Backpropagation.pdf)
-> - [NN06.2-MLP_Backpropagation_Beispiel.pdf](files/NN06.2-MLP_Backpropagation_Beispiel.pdf)
+> - [NN06-MLP_Backpropagation.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN06-MLP_Backpropagation.pdf)
+> - [NN06.2-MLP_Backpropagation_Beispiel.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN06.2-MLP_Backpropagation_Beispiel.pdf)
 >
 > </details>
 
@@ -115,4 +115,4 @@ b^{[l]} = b^{[l]} - \alpha \text{ } db^{[l]} \tag{8}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 599d032 (lecture: use local files for attachments (NN6), 2025-10-15)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 578b7ff (lecture: fix links to attachments, 2025-11-17)<br></sub></sup></p></blockquote>
