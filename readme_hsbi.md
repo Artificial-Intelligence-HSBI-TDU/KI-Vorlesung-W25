@@ -79,7 +79,7 @@ Abgabe der Übungsblätter jeweils **Montag bis 10:00 Uhr** im
 [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1582797). Vorstellung
 der Lösung im jeweiligen Praktikum in der Abgabewoche.
 
-| Woche | Thema | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Praktikum | AI Connect |
+| Woche | Thema | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Praktikum | [AI Connect](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/discussions/16) |
 |:---|:---|:---|:---|:---|:---|
 | 06.10. | Orga, Intro | [Einführung KI](lecture/intro/intro1-overview.md) \| [Problemlösen](lecture/intro/intro2-problemsolving.md) | [Orga](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/blob/master/readme_hsbi.md) (*Zoom*) \|\| [Einführung Jupyter-Notebooks](lecture/intro/intro3-jupyternotebooks.md) |  |  |
 | 13.10. | Search | [Tiefensuche](lecture/searching/search1-dfs.md) \| [Breitensuche](lecture/searching/search2-bfs.md) \| [Branch-and-Bound](lecture/searching/search3-branchandbound.md) \| [Best First](lecture/searching/search4-bestfirst.md) | [A-Stern](lecture/searching/search5-astar.md) |  |  |
@@ -195,4 +195,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 878ab01 (orga: reduce lower bound of post mortem to 150 words, 2025-11-02)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c6e71ce (orga: add link to AI Connect announcement (Readme), 2025-11-17)<br></sub></sup></p></blockquote>
