@@ -87,7 +87,7 @@ Classroom](https://classroom.google.com/c/NzE4Mzk0NDE5ODEz?cjc=fhzfku3))
 | 10.11. | ZP |  | **Zwischenprüfung** |  |  |
 | 17.11. | Perzeptron | [Perzeptron](lecture/nn/nn01-perceptron.md) | Perzeptron Lernalgorithmus Beispiel | [Blatt: DTL](homework/sheet-dtl.md) |  |
 | 24.11. | Lin. Regr. | [Lineare Regression und Gradientenabstieg](lecture/nn/nn02-linear-regression.md) | Gradientenabstieg Beispiel | [Blatt: Perzeptron](homework/sheet-nn-perceptron.md) |  |
-| 01.12. | Log. Regr. | [Logistische Regression](lecture/nn/nn03-logistic-regression.md) | **ab 11:00**: Logistische Regression Beispiel |  | **Mo, 01.12., 10:00 Uhr: Kick-Off und Team-Building** |
+| 01.12. | Log. Regr. | [Logistische Regression](lecture/nn/nn03-logistic-regression.md) | **ab 11:00**: Logistische Regression Beispiel |  | **Mo, 01.12., 10:00 Uhr: Kick-Off und Team-Building** [Warm-up Task](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/discussions/20) |
 | 08.12. | MLP | [Overfitting und Regularisierung](lecture/nn/nn04-overfitting.md) \|\| [Multilayer Perceptron (MLP)](lecture/nn/nn05-mlp.md) | **ab 11:00**: MLP Beispiel | [Blatt: Regression](homework/sheet-nn-regression.md) | **Mo, 08.12., 10:00 Uhr: Project Launch** |
 | 15.12. | Backprop | [Backpropagation](lecture/nn/nn06-backprop.md) | Backpropagation Beispiel | [Blatt: MLP](homework/sheet-nn-mlp.md) | **Fr, 19.12., 12:30 Uhr: Team-Präsentationen** |
 | 22.12. | Train&Test | [Training & Testing](lecture/nn/nn07-training-testing.md) | [Performanzanalyse](lecture/nn/nn08-testing.md) | [Blatt: Backpropagation](homework/sheet-nn-backprop.md) |  |
@@ -139,4 +139,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c6e71ce (orga: add link to AI Connect announcement (Readme), 2025-11-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> a2379f4 (orga: add link to warm-up task to schedule/overview, 2025-12-01)<br></sub></sup></p></blockquote>
