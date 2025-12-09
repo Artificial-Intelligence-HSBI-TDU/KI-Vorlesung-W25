@@ -25,6 +25,7 @@
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN02-Lineare_Regression.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN02-Lineare_Regression.pdf)
+> - [Lineare_Regression.ipynb](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/Lineare_Regression.ipynb)
 >
 > </details>
 
@@ -162,4 +163,4 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 578b7ff (lecture: fix links to attachments, 2025-11-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> ff43c3c (lecture: add jupyter notebook (Linear Regression) (#502), 2025-12-09)<br></sub></sup></p></blockquote>

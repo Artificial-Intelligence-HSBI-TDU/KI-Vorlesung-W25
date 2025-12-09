@@ -24,6 +24,7 @@
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN03-Logistische_Regression.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN03-Logistische_Regression.pdf)
+> - [Logistische_Regression.ipynb](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/Logistische_Regression.ipynb)
 >
 > </details>
 
@@ -117,4 +118,4 @@ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{3}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 578b7ff (lecture: fix links to attachments, 2025-11-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9042c3c (lecture: add jupyter notebook (Logistische Regression) (#503), 2025-12-09)<br></sub></sup></p></blockquote>
