@@ -40,6 +40,8 @@ Samuel, 1959)
 - Unüberwachtes Lernen (e.g. Clustering, Dimensionsreduktion)
 - Bestärkendes Lernen (e.g. Schach spielen)
 
+Vergleiche auch [DTL: Machine Learning 101](../dtl/dtl1-mlbasics.md).
+
 ### Formalisierung
 
 - Zielfunktion $`f`$
@@ -77,11 +79,11 @@ h(\mathbf{x})
 
 - Die **Ausgabe $`\hat{y}`$** des Modells ist somit eine Zahl aus der
   Menge $`\{1, -1\}`$.
-
 - $`w_0, w_1, w_2, \ldots, w_n`$ sind die Parameter des Modells, die es
   zu optimieren gilt.
 
-  <img src="images/perceptron-network.png" width="500" align="center" alt="Perzeptron Entscheidungsgrenze"><br>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/perceptron-network_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/perceptron-network_dark.png"><img src="images/perceptron-network.png" width="70%"></picture></p><p align="center">Perzeptron
+Aufbau und Berechnung</p>
 
 #### Lineare Entscheidungsgrenze
 
@@ -103,14 +105,15 @@ h(\mathbf{x})
   $`w_0 = 0, w_1 = 2`$ und $`w_3 = -1`$, entsprechend dem Modell
   $`h(\mathbf{x}) = \text{sgn}(2x_1 - x_2)`$.
 
-  <img src="images/perceptron-boundary.png" width="400" align="center" alt="Perzeptron Entscheidungsgrenze"><br>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/perceptron-boundary_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/perceptron-boundary_dark.png"><img src="images/perceptron-boundary.png" width="50%"></picture></p><p align="center">Perzeptron
+Entscheidungsgrenze</p>
 
 ### Der Perzeptron Lernalgorithmus
 
 Der Perzeptron Lernalgorithmus (PLA) startet mit zufälligen
 Gewichtsparametern und aktualisiert methodisch die Gewichte, bis die
 Daten alle richtig klassifiziert sind (oder eine festgelegte obere
-Schranke von Aktualisirungsschritten erreicht wird).
+Schranke von Aktualisierungsschritten erreicht wird).
 
 **Ablauf des PLA**:
 
@@ -157,7 +160,7 @@ Entscheidungsgrenzen modellieren, darunter insbesondere kreisförmige
 Entscheidungsgrenzen der Form
 
 ``` math
- -4 + x_1^2 + x_2^2 = 0.
+-4 + x_1^2 + x_2^2 = 0.
 ```
 
 > [!NOTE]
@@ -169,10 +172,10 @@ Entscheidungsgrenzen der Form
 > - k2: Ich kann verschiedene Arten des maschinellen Lernens erklären
 > - k2: Ich kann die Formalisierung eines ML-Problems, insbesondere der
 >   Klassifizierung erklären und dabei insbesondere die Begriffe
->   Datensatz, Merkmalraum, Hyphotesenfunktion und Zielfunktion an einem
->   Beispiel erläutern
-> - k2: Ich kann das Perzeptron als linearen Klassifizierer verstehen
->   und erklären
+>   Datensatz, Merkmalsraum, Hypothesenfunktion und Zielfunktion an
+>   einem Beispiel erläutern
+> - k2: Ich kann das Perzeptron als linearen Klassifikator verstehen und
+>   erklären
 > - k2: Ich kann den Begriff der Entscheidungsgrenze erklären
 > - k3: Ich kann die Entscheidungsgrenze für ein konkretes Beispiel
 >   berechnen
@@ -198,4 +201,4 @@ Entscheidungsgrenzen der Form
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> b2a7157 (lecture: add images and math to perceptron overview (#506), 2025-12-14)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 204d6e2 (lecture: add link to dtl intro (NN1), 2025-12-15)<br></sub></sup></p></blockquote>
