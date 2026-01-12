@@ -12,14 +12,14 @@
 > (Klassifikation) erfolgt dann durch die Nutzung der beim “Training”
 > berechneten bedingten Wahrscheinlichkeiten:
 >
-> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h|D_1,  \ldots, D_n) =
-> \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i|h)`$
+> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1,  \ldots, D_n) =
+> \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)`$
 >
 > Für jede Hypothese $`h`$, d.h. für jede Klasse, wird der Posterior
-> $`P(h|D_1,  \ldots, D_n)`$ ausgerechnet. Die Klasse, deren Wert dabei
-> am höchsten ist, “gewinnt”, d.h. die Klasse mit dem größten Posterior
-> wird ausgegeben. (Deshalb wird das Verfahren oft auch “MAP” – *Maximum
-> a Posteriori* – genannt.)
+> $`P(h \mid D_1, \ldots, D_n)`$ ausgerechnet. Die Klasse, deren Wert
+> dabei am höchsten ist, “gewinnt”, d.h. die Klasse mit dem größten
+> Posterior wird ausgegeben. (Deshalb wird das Verfahren oft auch “MAP”
+> – *Maximum a Posteriori* – genannt.)
 >
 > Bei der Berechnung wird angenommen, dass die betrachteten Merkmale
 > (bedingt) unabhängig sind (dies geht in die obige Formel ein). Diese
@@ -76,7 +76,7 @@
 ## Medizinische Diagnostik mit NB
 
 - Bei Arthrose wird in 80 Prozent der Fälle ein steifes Gelenk
-  beobachtet: $`P(S|A) = 0.8`$
+  beobachtet: $`P(S \mid A) = 0.8`$
 - Eine von 10.000 Personen hat Arthrose: $`P(A) = 0.0001`$
 - Eine von 10 Personen hat ein steifes Gelenk: $`P(S) = 0.1`$
 
@@ -104,13 +104,13 @@ und wenden Sie diesen auf die beiden Test-Dokumente an.
 - Verallgemeinerte Bayes Regel
 
 ``` math
-P(H|D_1, \ldots, D_n) = \frac{P(D_1, \ldots, D_n | H)P(H)}{P(D_1, \ldots, D_n)}
+P(H \mid D_1, \ldots, D_n) = \frac{P(D_1, \ldots, D_n \mid H)P(H)}{P(D_1, \ldots, D_n)}
 ```
 
 - Annahme: $`D_i`$ sind bedingt unabhängig
 
 ``` math
-P(D_1, \ldots, D_n | H) = P(D_1 | H) \cdot \ldots \cdot P(D_n | H) = \prod_i P(D_i | H)
+P(D_1, \ldots, D_n \mid H) = P(D_1 \mid H) \cdot \ldots \cdot P(D_n \mid H) = \prod_i P(D_i \mid H)
 ```
 
 - Beobachtung: $`P(D_1, \ldots, D_n)`$ für alle Hypothesen $`h \in H`$
@@ -124,29 +124,30 @@ P(D_1, \ldots, D_n | H) = P(D_1 | H) \cdot \ldots \cdot P(D_n | H) = \prod_i P(D
   unterstützt wird.
 
 ``` math
-h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | D_1, \ldots, D_n)
-= \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i | h)
+h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
+= \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)
 ```
 
 ## Bayes’sches Lernen
 
 ``` math
-h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | D_1, \ldots, D_n)
-= \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i | h)
+h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
+= \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)
 ```
 
 **Training**: Bestimme die Wahrscheinlichkeiten aus Trainingsdaten
 $`\mathbf{S}`$
 
 - Für jede Klasse $`h`$:
-  - Schätze $`P(h) = \dfrac{|S(h)|}{|S|}`$
+  - Schätze $`P(h) = \dfrac{\lvert S(h) \rvert}{\lvert S \rvert}`$
   - Für jedes Attribut $`D_i`$ und jede Ausprägung $`x \in D_i`$:
-    Schätze $`P(D_i=x | h) = \dfrac{|S_{D_i}(x) \cap S(h)|}{|S(h)|}`$
+    Schätze
+    $`P(D_i=x \mid h) = \dfrac{\lvert S_{D_i}(x) \cap S(h) \rvert}{\lvert S(h) \rvert}`$
 
 **Klassifikation**: Wähle wahrscheinlichste Klasse $`h_{MAP}`$ für
 Vektor $`\mathbf{x}`$
 
-- $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{x \in \mathbf{x}} P(x | h)`$
+- $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{x \in \mathbf{x}} P(x \mid h)`$
 
 ## Beispiel Klassifikation mit NB
 
@@ -161,13 +162,14 @@ Vektor $`\mathbf{x}`$
 - Eingabe: Person mit Husten und Fieber
 
 Gesucht: $`P(\text{krank})`$, $`P(\text{gesund})`$,
-$`P(\text{Nase=0}|\text{krank})`$, $`P(\text{Nase=0}|\text{gesund})`$, …
+$`P(\text{Nase=0} \mid \text{krank})`$,
+$`P(\text{Nase=0} \mid \text{gesund})`$, …
 
 Wähle Klasse
 ``` math
 \begin{eqnarray}
-h_{MAP} = \mathop{\text{argmax}}_{h \in \lbrace \text{gesund, krank} \rbrace} & P(h) \cdot P(\text{Nase=0}|h) \cdot P(\text{Husten=1}|h) \\
-    & \cdot P(\text{Haut=0}|h) \cdot P(\text{Fieber=1}|h)
+h_{MAP} = \mathop{\text{argmax}}_{h \in \lbrace \text{gesund, krank} \rbrace} & P(h) \cdot P(\text{Nase=0} \mid h) \cdot P(\text{Husten=1} \mid h) \\
+    & \cdot P(\text{Haut=0} \mid h) \cdot P(\text{Fieber=1} \mid h)
 \end{eqnarray}
 ```
 
@@ -214,7 +216,7 @@ der beiden Hypothesen) …
   <!-- -->
 
   - Likelihood der Daten (Terme):
-    - $`P(t|c) = \dfrac{\mathop{\text{count}}(t,c)}{\sum_{v \in V} \mathop{\text{count}}(v,c)}`$
+    - $`P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c)}{\sum_{v \in V} \mathop{\text{count}}(v,c)}`$
       mit $`\mathop{\text{count}}(t,c)`$ Anzahl der Vorkommen von Term
       $`t`$ in allen Dokumenten der Klasse $`c`$ und $`V`$ die
       Vereinigung aller Terme aller Dokumente (als Menge)
@@ -222,13 +224,13 @@ der beiden Hypothesen) …
     <!-- -->
 
     - Variante mit Laplace-Glättung (s.u.):
-      $`P(t|c) = \dfrac{\mathop{\text{count}}(t,c) + 1}{\sum_{v \in V} \mathop{\text{count}}(v,c) + |V|}`$
+      $`P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c) + 1}{\sum_{v \in V} \mathop{\text{count}}(v,c) + \lvert V \rvert}`$
 
 ## Naivität im Naive Bayes
 
 - Unabhängigkeit der Attribute oft nicht gegeben
 
-  =\> $`P(D_1, \ldots, D_n | H) \ne \prod_i P(D_i | H)`$
+  =\> $`P(D_1, \ldots, D_n \mid H) \ne \prod_i P(D_i \mid H)`$
 
 - A-posteriori-Wahrscheinlichkeiten oft unrealistisch nah an 1 oder 0
 
@@ -255,17 +257,17 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 >
 > - Klassen: $`H \in \lbrace 0, 1 \rbrace`$,
 >   $`P(H = 0) = P(H = 1) = 0.5`$
-> - Bedingte Verteilungen $`P(x_1, x_2 | H)`$:
+> - Bedingte Verteilungen $`P(x_1, x_2 \mid H)`$:
 >   - Für $`H = 0`$:
->     - $`P(x_1=0, x_2=0 | 0) = 0.30`$
->     - $`P(x_1=0, x_2=1 | 0) = 0.35`$
->     - $`P(x_1=1, x_2=0 | 0) = 0.15`$
->     - $`P(x_1=1, x_2=1 | 0) = 0.20`$
+>     - $`P(x_1=0, x_2=0 \mid 0) = 0.30`$
+>     - $`P(x_1=0, x_2=1 \mid 0) = 0.35`$
+>     - $`P(x_1=1, x_2=0 \mid 0) = 0.15`$
+>     - $`P(x_1=1, x_2=1 \mid 0) = 0.20`$
 >   - Für $`H = 1`$:
->     - $`P(x_1=0, x_2=0 | 1) = 0.00`$
->     - $`P(x_1=0, x_2=1 | 1) = 0.30`$
->     - $`P(x_1=1, x_2=0 | 1) = 0.65`$
->     - $`P(x_1=1, x_2=1 | 1) = 0.05`$
+>     - $`P(x_1=0, x_2=0 \mid 1) = 0.00`$
+>     - $`P(x_1=0, x_2=1 \mid 1) = 0.30`$
+>     - $`P(x_1=1, x_2=0 \mid 1) = 0.65`$
+>     - $`P(x_1=1, x_2=1 \mid 1) = 0.05`$
 >
 > #### Analyse der gegebenen Daten
 >
@@ -273,26 +275,28 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 > $`H`$.
 >
 > Erinnerung: Zwei Ereignisse $`X`$ und $`Y`$ sind bedingt unabhängig
-> gegeben $`Z`$, wenn gilt $`P(X,Y|Z) = P(X|Y,Z)P(Y|Z) = P(X|Z)P(Y|Z)`$.
+> gegeben $`Z`$, wenn gilt
+> $`P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)`$.
 >
 > Wir haben aber im Fall von $`H=1`$:
 >
-> - $`P(x_1=0, x_2=0 | 1) = 0.00`$
->   vs. $`P(x_1=0 | 1) P(x_2=0 | 1) = (0.00+0.30) * (0.00+0.65) = 0.30 * 0.65 = 0.195`$
-> - $`P(x_1=0, x_2=1 | 1) = 0.30`$
->   vs. $`P(x_1=0 | 1) P(x_2=1 | 1) = (0.00+0.30) * (0.30+0.05) = 0.30 * 0.35 = 0.105`$
-> - $`P(x_1=1, x_2=0 | 1) = 0.65`$
->   vs. $`P(x_1=1 | 1) P(x_2=0 | 1) = (0.65+0.05) * (0.00+0.65) = 0.70 * 0.65 = 0.455`$
-> - $`P(x_1=1, x_2=1 | 1) = 0.05`$
->   vs. $`P(x_1=1 | 1) P(x_2=1 | 1) = (0.65+0.05) * (0.30+0.05) = 0.70 * 0.35 = 0.245`$
+> - $`P(x_1=0, x_2=0 \mid 1) = 0.00`$
+>   vs. $`P(x_1=0 \mid 1) P(x_2=0 \mid 1) = (0.00+0.30) * (0.00+0.65) = 0.30 * 0.65 = 0.195`$
+> - $`P(x_1=0, x_2=1 \mid 1) = 0.30`$
+>   vs. $`P(x_1=0 \mid 1) P(x_2=1 \mid 1) = (0.00+0.30) * (0.30+0.05) = 0.30 * 0.35 = 0.105`$
+> - $`P(x_1=1, x_2=0 \mid 1) = 0.65`$
+>   vs. $`P(x_1=1 \mid 1) P(x_2=0 \mid 1) = (0.65+0.05) * (0.00+0.65) = 0.70 * 0.65 = 0.455`$
+> - $`P(x_1=1, x_2=1 \mid 1) = 0.05`$
+>   vs. $`P(x_1=1 \mid 1) P(x_2=1 \mid 1) = (0.65+0.05) * (0.30+0.05) = 0.70 * 0.35 = 0.245`$
 >
 > (analog für $`H=0`$)
 >
 > Damit bekommen wir im Naive Bayes Klassifikator ein Problem. Dort wird
 > von bedingt unabhängigen Merkmalen ausgegangen und deshalb die
-> Vereinfachung von $`P(x_1, x_2 | H)`$ zu $`P(x_1 | H) P(x_2 | H)`$
-> vorgenommen. Da die Annahme nicht stimmt, werden die Merkmale falsch
-> gewichtet und es kann zu Fehlklassifikationen kommen.
+> Vereinfachung von $`P(x_1, x_2 \mid H)`$ zu
+> $`P(x_1 \mid H) P(x_2 \mid H)`$ vorgenommen. Da die Annahme nicht
+> stimmt, werden die Merkmale falsch gewichtet und es kann zu
+> Fehlklassifikationen kommen.
 >
 > #### Klassifikation einer Beobachtung
 >
@@ -301,18 +305,18 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 > Die nötigen Marginalisierungen aus den Trainingsdaten für diese
 > Beobachtung sind:
 >
-> - Für $`H = 0`$: $`P(x_1=1|0) = 0.15 + 0.20 = 0.35`$,
->   $`P(x_2=1|0) = 0.35 + 0.20 = 0.55`$
-> - Für $`H = 1`$: $`P(x_1=1|1) = 0.65 + 0.05 = 0.70`$,
->   $`P(x_2=1|1) = 0.30 + 0.05 = 0.35`$
+> - Für $`H = 0`$: $`P(x_1=1 \mid 0) = 0.15 + 0.20 = 0.35`$,
+>   $`P(x_2=1 \mid 0) = 0.35 + 0.20 = 0.55`$
+> - Für $`H = 1`$: $`P(x_1=1 \mid 1) = 0.65 + 0.05 = 0.70`$,
+>   $`P(x_2=1 \mid 1) = 0.30 + 0.05 = 0.35`$
 >
 > Anwendung der Naive Bayes Klassifikation (mit Annahme bedingt
 > unabhängige Merkmale): Wir nutzen
-> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | D_1, \ldots, D_n)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i | h)`$ und
+> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
+> = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)`$ und
 > setzen unsere beiden Merkmale ein:
-> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | x_1, x_2)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1 | h) P(x_2 | h)`$.
+> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid x_1, x_2)
+> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1 \mid h) P(x_2 \mid h)`$.
 >
 > Damit bekommen wir folgende Entscheidung:
 >
@@ -322,18 +326,18 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 >
 > Da die Merkmale nicht unabhängig sind, darf die Produktannahme nicht
 > verwendet werden, sondern wir müssten eigentlich den Term
-> $`P(x_1, x_2 | h)`$ nutzen:
-> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | x_1, x_2)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 | h)`$.
+> $`P(x_1, x_2 \mid h)`$ nutzen:
+> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid x_1, x_2)
+> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)`$.
 >
 > Aus den gegebenen Daten haben wir (einfach oben ablesen):
 >
-> - $`P(x_1=1, x_2=1 | 0) = 0.20`$
-> - $`P(x_1=1, x_2=1 | 1) = 0.05`$
+> - $`P(x_1=1, x_2=1 \mid 0) = 0.20`$
+> - $`P(x_1=1, x_2=1 \mid 1) = 0.05`$
 >
 > Eingesetzt in die Formel
-> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | x_1, x_2)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 | h)`$:
+> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid x_1, x_2)
+> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)`$:
 >
 > - $`H=0: 0.5 * 0.20 = 0.10`$
 > - $`H=1: 0.5 * 0.05 = 0.025`$
@@ -364,18 +368,20 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 
 - Lösung: “Laplace-Schätzer” (auch “Laplace-Glättung”)
 
-  Statt $`P(D_i=x | h) = \dfrac{|S_{D_i}(x) \cap S(h)|}{|S(h)|}`$
+  Statt
+  $`P(D_i=x \mid h) = \dfrac{\lvert S_{D_i}(x) \cap S(h) \rvert}{\lvert S(h) \rvert}`$
 
   nutze
-  $`P(D_i=x|h) = \dfrac{|S_{D_i}(x) \cap S(h)| + m \cdot p_i}{|S(h)| + m}`$
+  $`P(D_i=x \mid h) = \dfrac{\lvert S_{D_i}(x) \cap S(h) \rvert + m \cdot p_i}{\lvert S(h) \rvert + m}`$
 
   - mit $`m`$: frei wählbarer Faktor, und
 
-  - $`p_i`$: A-priori-Wahrscheinlichkeit für $`P(D_i=x|h)`$
+  - $`p_i`$: A-priori-Wahrscheinlichkeit für $`P(D_i=x \mid h)`$
 
     Hintergrundwissen oder einfach *uniforme Verteilung der
-    Attributwerte*: $`p_i = 1/|D_i|`$ (Wahrscheinlichkeit für eine
-    Attributausprägung ist 1/(Anzahl der Ausprägungen des Attributs))
+    Attributwerte*: $`p_i = 1/\lvert D_i \rvert`$ (Wahrscheinlichkeit
+    für eine Attributausprägung ist 1/(Anzahl der Ausprägungen des
+    Attributs))
 
   =\> “virtuelle” Trainingsbeispiele ($`m`$ ist die Zahl der virtuellen
   Trainingsbeispiele)
@@ -395,9 +401,9 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 
 ``` math
 \begin{eqnarray}
-h_{MAP} &=& \mathop{\text{argmax}}_{h \in H} \: P(h|D_1, \ldots, D_n) \\[5pt]
-        &=& \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i | h) \\[5pt]
-        &=& \mathop{\text{argmax}}_{h \in H} \: [\log(P(h)) + \sum_i \log(P(D_i | h))]
+h_{MAP} &=& \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n) \\[5pt]
+        &=& \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h) \\[5pt]
+        &=& \mathop{\text{argmax}}_{h \in H} \: [\log(P(h)) + \sum_i \log(P(D_i \mid h))]
 \end{eqnarray}
 ```
 
@@ -406,8 +412,8 @@ h_{MAP} &=& \mathop{\text{argmax}}_{h \in H} \: P(h|D_1, \ldots, D_n) \\[5pt]
 - **Maximum a Posteriori**
 
 ``` math
-h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | D_1, \ldots, D_n)
-= \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i | h)
+h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
+= \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)
 ```
 
 - Annahme: Klassen uniform verteilt =\> $`P(h_i) = P(h_j)`$
@@ -417,7 +423,7 @@ h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | D_1, \ldots, D_n)
   =\> Maximiere die Likelihood der Daten
 
 ``` math
-h_{ML} = \mathop{\text{argmax}}_{h \in H} \: \prod_i P(D_i | h)
+h_{ML} = \mathop{\text{argmax}}_{h \in H} \: \prod_i P(D_i \mid h)
 ```
 
 ## Ausblick: Kontinuierliche Attribute
@@ -438,7 +444,7 @@ f(x) = \frac{1}{\sqrt{2 \pi \sigma}} e^{- \frac{(x - \mu)^2}{2 \sigma^2}}
 
 ## Hinweis zum Sprachgebrauch
 
-In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
+In Abhängigkeit von der Verteilung der $`P(D_i \mid h)`$ spricht man von
 
 - “multinominalem” NB: Attribute umfassen mehrere Kategorien
   (verschiedene Ausprägungen, wie im “Wahlkampf”-Beispiel: Attribut
@@ -563,4 +569,4 @@ empfehlenswert.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> cac4843 (lecture: improve challenge (NB2), 2025-10-01)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e5c1685 (lecture: reformat NB, 2026-01-12)<br></sub></sup></p></blockquote>
