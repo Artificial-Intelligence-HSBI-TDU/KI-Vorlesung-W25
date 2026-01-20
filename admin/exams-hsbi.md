@@ -313,7 +313,7 @@ Vektor folgende Werte an:
 
 1.  Skalarprodukt $`\mathbf{w}^T \mathbf{x}`$,
 2.  Aktivierung $`\text{sgn}(\mathbf{w}^T \mathbf{x})`$.
-3.  Falls notwendig, führen Sie einen Lernschritt durch, nutzen Sie
+3.  Falls notwendig, führen Sie einen Lernschritt durch. Nutzen Sie
     dabei $`\alpha=1`$.
 
 Geben Sie die resultierenden (neuen) Gewichte an (auch wenn Sie keinen
@@ -328,7 +328,7 @@ konstruiert werden. Der Algorithmus läuft schon und hat das Merkmal
 $`x_2`$ als Wurzelknoten ausgewählt. Beschreiben Sie detailliert, wie
 ID3 die nächste Ebene aufbaut. Gehen Sie dabei konkret auch auf den
 Algorithmus ein. Geben Sie die eingesetzten Formeln für Entropien und
-Gains an und erklären, Sie Ihr Vorgehen.
+Gains an und erklären Sie Ihr Vorgehen.
 
 *Hinweis*: Sie sollen die Formeln nur einsetzen, aber nicht ausrechnen.
 
@@ -349,10 +349,19 @@ Kantenkonsistenz herstellt. Hier ist die Queue in einem bestimmten
 Schritt: … Führen Sie einen Schritt durch und geben Sie die
 resultierende Queue an. Erklären Sie Ihr Ergebnis.
 
+### NB
+
+Betrachten Sie den folgenden Datensatz: … “Trainieren” Sie für diesen
+Datensatz einen vollständigen Naive-Bayes-Klassifikator. Nutzen Sie die
+Variante “Multinomial NB”. Geben Sie alle Bestandteile an. Erklären Sie
+Ihr Vorgehen nachvollziehbar.
+
+*Hinweis*: Sie brauchen die Brüche nicht ausrechnen.
+
 ------------------------------------------------------------------------
 
 <img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" width="10%">
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bf11d88 (exams: improve example questions, 2026-01-20)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 621a548 (exams: add more examples, 2026-01-20)<br></sub></sup></p></blockquote>
