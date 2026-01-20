@@ -281,57 +281,56 @@ Betrachten Sie den folgenden Graphen:
 
 <picture><source media="(prefers-color-scheme: light)" srcset="images/graph_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/graph_dark.png"><img src="images/graph.png" width="60%"></picture>
 
-Führen Sie eine Handsimulation der Breitensuche durch. Start ist “K”,
-Ziel ist “B”.
+Mittels Breitensuche (Variante “Tree-Search”) soll der kürzeste Weg von
+“K” nach “B” gefunden werden. Die folgende Queue stellt den aktuellen
+Zustand der Suche dar:
 
-Geben Sie den Zustand der Queue in jedem Schritt an.
+`[KSF, KSP]`
 
-### Suche
+Führen Sie den nächsten Schritt des Breitensuche-Algorithmus durch und
+geben Sie die resultierende Queue an. Achten Sie auf die korrekte
+Sortierung und halten Sie sich an die vorgegebene Notation.
+
+*Hinweis*: Die vorgegebene Queue kann willkürlich konstruiert sein und
+muss nicht viel mit Breitensuche zu tun haben.
+
+### Suche und Constraints
 
 - Worin liegt der Unterschied zwischen einem Knoten und einem Zustand?
 - Was ist ein Suchbaum? Wo liegt der Unterschied zum Zustandsraum?
 - Muss der Suchbaum über eine eigene Datenstruktur realisiert werden?
 - Was bedeutet Kantenkonsistenz?
 
+Erklären Sie die jeweiligen Begriffe nachvollziehbar. Nutzen Sie dazu
+ein eigenes kleines Beispiel.
+
 ### Handsimulation Perzeptron
 
-Führen Sie den Perzeptron-Lernalgorithmus in Handsimulation durch.
-Lernen Sie die Boolesche Funktion OR. Die Trainingsmenge ist: …
+Gegeben sei folgendes Perzeptron mit den Gewichten
+$`w_0=0, w_1=0, w_2=0`$. Betrachten Sie den folgenden Eingabevektor
+$`x_0=1, x_1=1, x_2=0`$ mit der Klasse $`+1`$. Geben Sie für diesen
+Vektor folgende Werte an:
 
-Ihr Programm soll eine Tabelle mit den Spalten
+1.  Skalarprodukt $`\mathbf{w}^T \mathbf{x}`$,
+2.  Aktivierung $`\text{sgn}(\mathbf{w}^T \mathbf{x})`$.
+3.  Falls notwendig, führen Sie einen Lernschritt durch, nutzen Sie
+    dabei $`\alpha=1`$.
 
-> $`w_1`$, $`w_2`$, $`-\theta`$, $`x_1`$, $`x_2`$, $`k`$,
-> $`\sum_{i=1}^n w_i x_i - \theta`$, Vorhersage, Änderung? (=,+,-)
-
-ausgeben, die eine Zeile für jeden Lernschritt enthält. Geben Sie die
-vollständige Lerntabelle an.
-
-Anders als in der Vorlesung besprochen, sollen die Gewichte $`w_1`$ und
-$`w_2`$ sowie die Schwelle $`\theta`$ jeweils mit dem Wert $`0`$
-initialisiert werden. Die Lernschrittweite $`\alpha`$ sei $`0.5`$.
-Nutzen Sie die $`\mathop{\text{sign}}`$-Funktion als
-Aktivierungsfunktion:
-``` math
-\mathop{\text{sign}}(x) = \left\{
-    \begin{array}{ll}
-    0 & \text{falls } x<0\\
-    1 & \text{sonst}
-    \end{array}
-\right.
-```
-
-Zeichnen Sie eine geometrische Interpretation Ihres Perzeptrons nach dem
-Lernen (Trennebene, Gewichtsvektor, Trainingsbeispiele).
+Geben Sie die resultierenden (neuen) Gewichte an (auch wenn Sie keinen
+Lernschritt durchführen mussten).
 
 ### Entscheidungsbäume mit ID3
 
 Gegeben sei folgender Trainingsdatensatz …
 
-Bauen Sie mit Hilfe von ID3 einen Entscheidungsbaum auf. Welches
-Attribut würde als erster Test verwendet werden und warum? Wie bestimmt
-sich die Reihenfolge der weiteren Attribute?
+Mit Hilfe von ID3 soll für diesen Datensatz ein Entscheidungsbaum
+konstruiert werden. Der Algorithmus läuft schon und hat das Merkmal
+$`x_2`$ als Wurzelknoten ausgewählt. Beschreiben Sie detailliert, wie
+ID3 die nächste Ebene aufbaut. Gehen Sie dabei konkret auch auf den
+Algorithmus ein. Geben Sie die eingesetzten Formeln für Entropien und
+Gains an und erklären, Sie Ihr Vorgehen.
 
-Als Hilfe gegeben: Einige wichtige Logarithmen zur Basis 2
+*Hinweis*: Sie sollen die Formeln nur einsetzen, aber nicht ausrechnen.
 
 ### CSP
 
@@ -345,21 +344,10 @@ Betrachten Sie das folgende Constraintproblem:
 
 - $`D_a=D_b=D_c=\{1,2,3,4,5\}`$, $`D_d=\{1,2,5\}`$, $`D_e=\{1,3\}`$
 
-Zeichnen Sie den zugehörigen Constraintgraphen.
-
 Zeigen Sie per Handsimulation, wie der Algorithmus AC-3 schrittweise
-Kantenkonsistenz herstellt.
-
-### Backpropagation
-
-In der Vorlesung wurde die Delta-Regel bzw. die Gewichtsupdates bei der
-Backpropagation für die Ausgabeschicht und die davor liegende letzte
-Hidden-Layer unter Verwendung der Transferfunktion
-$`g(a) = 1/(1+\exp(-a))`$ vorgerechnet.
-
-Leiten Sie die Gewichtsupdates für die letzte und die vorletzte Schicht
-unter Verwendung der alternativen Transferfunktion $`g(a) = \tanh(a)`$
-her.
+Kantenkonsistenz herstellt. Hier ist die Queue in einem bestimmten
+Schritt: … Führen Sie einen Schritt durch und geben Sie die
+resultierende Queue an. Erklären Sie Ihr Ergebnis.
 
 ------------------------------------------------------------------------
 
@@ -367,4 +355,4 @@ her.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace operatorname w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> bf11d88 (exams: improve example questions, 2026-01-20)<br></sub></sup></p></blockquote>
